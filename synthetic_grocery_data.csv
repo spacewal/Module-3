@@ -1,0 +1,874 @@
+User Name,User ID,User DOB,User Email,Transaction Date,Transaction ID,Category,Product,Price,Volume Purchased,Total Price
+Norma Fisher,7c65c1e5-82e2-4662-b728-b4fa42485e3a,1955-02-12,tammy59@example.org,2024-02-12 06:13:31.672365,1846d424-c17c-4279-a3c6-612f48268673,Meat,Fish,6.0,4,24.0
+Danielle Browning,9a164106-cf6a-459e-b486-2b21fb97d435,2012-10-17,corey15@example.com,2024-02-13 11:44:31.656054,9c6316b9-50f2-4455-af25-e2a25a921187,Grains,Bread,1.5,10,15.0
+Danielle Browning,9a164106-cf6a-459e-b486-2b21fb97d435,2012-10-17,corey15@example.com,2024-02-15 06:54:11.329759,7a1d5006-8d72-4104-b773-83c13458a748,Fruits,Apple,1.5,2,3.0
+Danielle Browning,9a164106-cf6a-459e-b486-2b21fb97d435,2012-10-17,corey15@example.com,2024-02-15 06:54:11.329759,7a1d5006-8d72-4104-b773-83c13458a748,Vegetables,Tomato,0.8,9,7.2
+Danielle Browning,9a164106-cf6a-459e-b486-2b21fb97d435,2012-10-17,corey15@example.com,2024-02-15 06:54:11.329759,7a1d5006-8d72-4104-b773-83c13458a748,Grains,Rice,1.0,9,9.0
+Danielle Browning,9a164106-cf6a-459e-b486-2b21fb97d435,2012-10-17,corey15@example.com,2024-02-15 06:54:11.329759,7a1d5006-8d72-4104-b773-83c13458a748,Vegetables,Onion,0.9,7,6.3
+Joseph Brown,03983ca8-ea7e-4d49-8c77-8ea6eb2083e6,1918-12-18,ypage@example.net,2024-02-14 22:47:14.275546,de1b372a-d3fb-447a-be5b-1e7f9ca5499d,Grains,Oats,1.2,1,1.2
+Joseph Brown,03983ca8-ea7e-4d49-8c77-8ea6eb2083e6,1918-12-18,ypage@example.net,2024-02-14 22:47:14.275546,de1b372a-d3fb-447a-be5b-1e7f9ca5499d,Vegetables,Spinach,1.5,6,9.0
+Joseph Brown,03983ca8-ea7e-4d49-8c77-8ea6eb2083e6,1918-12-18,ypage@example.net,2024-02-14 22:47:14.275546,de1b372a-d3fb-447a-be5b-1e7f9ca5499d,Meat,Pork,4.0,4,16.0
+Joseph Brown,03983ca8-ea7e-4d49-8c77-8ea6eb2083e6,1918-12-18,ypage@example.net,2024-02-14 22:47:14.275546,de1b372a-d3fb-447a-be5b-1e7f9ca5499d,Meat,Chicken,3.0,2,6.0
+Joseph Brown,03983ca8-ea7e-4d49-8c77-8ea6eb2083e6,1918-12-18,ypage@example.net,2024-02-08 10:22:16.299557,ded733e8-b421-4aeb-9340-97cabaf3897a,Fruits,Watermelon,2.5,6,15.0
+Joseph Brown,03983ca8-ea7e-4d49-8c77-8ea6eb2083e6,1918-12-18,ypage@example.net,2024-02-08 10:22:16.299557,ded733e8-b421-4aeb-9340-97cabaf3897a,Grains,Oats,1.2,1,1.2
+Joseph Brown,03983ca8-ea7e-4d49-8c77-8ea6eb2083e6,1918-12-18,ypage@example.net,2024-02-08 10:22:16.299557,ded733e8-b421-4aeb-9340-97cabaf3897a,Dairy,Cream Cheese,3.5,2,7.0
+Joseph Brown,03983ca8-ea7e-4d49-8c77-8ea6eb2083e6,1918-12-18,ypage@example.net,2024-02-08 10:22:16.299557,ded733e8-b421-4aeb-9340-97cabaf3897a,Dairy,Cheese,3.0,9,27.0
+Thomas Walker,cd9d2b7d-247a-4333-b7b0-b7d2cda8056c,1971-02-17,millerluke@example.net,2024-02-23 06:20:45.207358,8d1fd9b7-4d2b-4deb-9beb-37117d41e602,Meat,Crab,12.0,4,48.0
+Thomas Walker,cd9d2b7d-247a-4333-b7b0-b7d2cda8056c,1971-02-17,millerluke@example.net,2024-02-23 06:20:45.207358,8d1fd9b7-4d2b-4deb-9beb-37117d41e602,Fruits,Apple,1.5,4,6.0
+Thomas Walker,cd9d2b7d-247a-4333-b7b0-b7d2cda8056c,1971-02-17,millerluke@example.net,2024-02-23 06:20:45.207358,8d1fd9b7-4d2b-4deb-9beb-37117d41e602,Meat,Chicken,3.0,4,12.0
+Thomas Walker,cd9d2b7d-247a-4333-b7b0-b7d2cda8056c,1971-02-17,millerluke@example.net,2024-02-23 06:20:45.207358,8d1fd9b7-4d2b-4deb-9beb-37117d41e602,Fruits,Pineapple,1.4,5,7.0
+Thomas Walker,cd9d2b7d-247a-4333-b7b0-b7d2cda8056c,1971-02-17,millerluke@example.net,2024-02-23 06:20:45.207358,8d1fd9b7-4d2b-4deb-9beb-37117d41e602,Dairy,Cream,2.5,3,7.5
+Thomas Walker,cd9d2b7d-247a-4333-b7b0-b7d2cda8056c,1971-02-17,millerluke@example.net,2024-02-07 11:51:33.281254,d080e66e-552f-433a-8c25-166a1ff39849,Meat,Fish,6.0,5,30.0
+Thomas Walker,cd9d2b7d-247a-4333-b7b0-b7d2cda8056c,1971-02-17,millerluke@example.net,2024-02-07 11:51:33.281254,d080e66e-552f-433a-8c25-166a1ff39849,Fruits,Peach,1.6,3,4.800000000000001
+Thomas Walker,cd9d2b7d-247a-4333-b7b0-b7d2cda8056c,1971-02-17,millerluke@example.net,2024-02-07 11:51:33.281254,d080e66e-552f-433a-8c25-166a1ff39849,Grains,Quinoa,3.0,3,9.0
+Thomas Walker,cd9d2b7d-247a-4333-b7b0-b7d2cda8056c,1971-02-17,millerluke@example.net,2024-02-21 13:48:07.080193,9a6a5f92-cca7-4147-b6be-1f723405095c,Dairy,Eggs,1.8,9,16.2
+Thomas Walker,cd9d2b7d-247a-4333-b7b0-b7d2cda8056c,1971-02-17,millerluke@example.net,2024-02-21 13:48:07.080193,9a6a5f92-cca7-4147-b6be-1f723405095c,Vegetables,Cucumber,0.7,1,0.7
+Thomas Walker,cd9d2b7d-247a-4333-b7b0-b7d2cda8056c,1971-02-17,millerluke@example.net,2024-02-21 13:48:07.080193,9a6a5f92-cca7-4147-b6be-1f723405095c,Vegetables,Carrot,0.5,6,3.0
+Thomas Walker,cd9d2b7d-247a-4333-b7b0-b7d2cda8056c,1971-02-17,millerluke@example.net,2024-02-21 13:48:07.080193,9a6a5f92-cca7-4147-b6be-1f723405095c,Dairy,Eggs,1.8,2,3.6
+Donna Davis,935ddd72-5129-4b7c-a288-e1a5cc457821,1936-03-24,jaimelopez@example.net,2024-02-22 21:25:09.221296,16febaa0-11af-423d-b9fd-ef7c42930b33,Meat,Fish,6.0,8,48.0
+Donna Davis,935ddd72-5129-4b7c-a288-e1a5cc457821,1936-03-24,jaimelopez@example.net,2024-02-22 21:25:09.221296,16febaa0-11af-423d-b9fd-ef7c42930b33,Dairy,Cottage Cheese,2.0,3,6.0
+Donna Davis,935ddd72-5129-4b7c-a288-e1a5cc457821,1936-03-24,jaimelopez@example.net,2024-02-22 21:25:09.221296,16febaa0-11af-423d-b9fd-ef7c42930b33,Meat,Pork,4.0,4,16.0
+Donna Davis,935ddd72-5129-4b7c-a288-e1a5cc457821,1936-03-24,jaimelopez@example.net,2024-02-22 21:25:09.221296,16febaa0-11af-423d-b9fd-ef7c42930b33,Grains,Millet,2.1,5,10.5
+Donna Davis,935ddd72-5129-4b7c-a288-e1a5cc457821,1936-03-24,jaimelopez@example.net,2024-02-22 21:25:09.221296,16febaa0-11af-423d-b9fd-ef7c42930b33,Grains,Couscous,2.0,10,20.0
+Donna Davis,935ddd72-5129-4b7c-a288-e1a5cc457821,1936-03-24,jaimelopez@example.net,2024-02-16 03:24:37.761386,ec62b2c8-2648-4e38-a074-05eb215663ab,Meat,Fish,6.0,3,18.0
+Donna Davis,935ddd72-5129-4b7c-a288-e1a5cc457821,1936-03-24,jaimelopez@example.net,2024-02-16 03:24:37.761386,ec62b2c8-2648-4e38-a074-05eb215663ab,Grains,Bulgur,2.3,2,4.6
+Donna Davis,935ddd72-5129-4b7c-a288-e1a5cc457821,1936-03-24,jaimelopez@example.net,2024-02-16 03:24:37.761386,ec62b2c8-2648-4e38-a074-05eb215663ab,Fruits,Banana,0.75,3,2.25
+Donna Davis,935ddd72-5129-4b7c-a288-e1a5cc457821,1936-03-24,jaimelopez@example.net,2024-02-16 03:24:37.761386,ec62b2c8-2648-4e38-a074-05eb215663ab,Vegetables,Spinach,1.5,10,15.0
+Bobby Lyons,642bfa42-aef9-400b-8a64-c1b9d450fe4a,2005-05-03,aimee33@example.net,2024-02-14 03:47:54.220321,46743741-9466-4472-ab5f-5241f323ca74,Dairy,Ice Cream,4.0,8,32.0
+Bobby Lyons,642bfa42-aef9-400b-8a64-c1b9d450fe4a,2005-05-03,aimee33@example.net,2024-02-14 03:47:54.220321,46743741-9466-4472-ab5f-5241f323ca74,Grains,Oats,1.2,9,10.799999999999999
+Bobby Lyons,642bfa42-aef9-400b-8a64-c1b9d450fe4a,2005-05-03,aimee33@example.net,2024-02-14 03:47:54.220321,46743741-9466-4472-ab5f-5241f323ca74,Fruits,Banana,0.75,9,6.75
+Bobby Lyons,642bfa42-aef9-400b-8a64-c1b9d450fe4a,2005-05-03,aimee33@example.net,2024-02-14 03:47:54.220321,46743741-9466-4472-ab5f-5241f323ca74,Meat,Turkey,4.5,2,9.0
+Matthew Davies,5b7c709a-cb17-4a5a-bb82-860deabca8d0,1917-09-13,tuckercrystal@example.org,2024-02-06 10:07:44.528483,b490b608-1dfc-4352-8562-be7fbb42e0b2,Vegetables,Bell Pepper,1.3,1,1.3
+Matthew Davies,5b7c709a-cb17-4a5a-bb82-860deabca8d0,1917-09-13,tuckercrystal@example.org,2024-02-06 10:07:44.528483,b490b608-1dfc-4352-8562-be7fbb42e0b2,Meat,Shrimp,10.0,3,30.0
+Matthew Davies,5b7c709a-cb17-4a5a-bb82-860deabca8d0,1917-09-13,tuckercrystal@example.org,2024-02-06 10:07:44.528483,b490b608-1dfc-4352-8562-be7fbb42e0b2,Grains,Bread,1.5,5,7.5
+Matthew Davies,5b7c709a-cb17-4a5a-bb82-860deabca8d0,1917-09-13,tuckercrystal@example.org,2024-02-06 10:07:44.528483,b490b608-1dfc-4352-8562-be7fbb42e0b2,Grains,Farro,2.2,4,8.8
+Matthew Davies,5b7c709a-cb17-4a5a-bb82-860deabca8d0,1917-09-13,tuckercrystal@example.org,2024-02-05 22:02:29.810142,6d16ee18-5521-46dd-aba4-b180cb69ca38,Meat,Pork,4.0,9,36.0
+Matthew Davies,5b7c709a-cb17-4a5a-bb82-860deabca8d0,1917-09-13,tuckercrystal@example.org,2024-02-05 22:02:29.810142,6d16ee18-5521-46dd-aba4-b180cb69ca38,Grains,Rice,1.0,10,10.0
+Matthew Davies,5b7c709a-cb17-4a5a-bb82-860deabca8d0,1917-09-13,tuckercrystal@example.org,2024-02-19 04:51:57.368789,daf66c5f-2577-4ffa-887a-746319c16a0d,Dairy,Milk,2.0,2,4.0
+Matthew Davies,5b7c709a-cb17-4a5a-bb82-860deabca8d0,1917-09-13,tuckercrystal@example.org,2024-02-19 04:51:57.368789,daf66c5f-2577-4ffa-887a-746319c16a0d,Meat,Lamb,7.0,4,28.0
+Matthew Davies,5b7c709a-cb17-4a5a-bb82-860deabca8d0,1917-09-13,tuckercrystal@example.org,2024-02-19 04:51:57.368789,daf66c5f-2577-4ffa-887a-746319c16a0d,Fruits,Grapes,2.0,10,20.0
+Amber Berry,9a27d858-88c1-42ad-afbf-c19ee8f6cf32,1987-02-03,martinezjacob@example.net,2024-02-03 16:05:19.606787,fb0323a1-d576-4415-9ec1-7dbe176ea1b1,Dairy,Cheese,3.0,9,27.0
+Larry Lee,1fb797fa-b7d6-467b-af5a-522af87f43fd,1963-09-26,gilesandrew@example.com,2024-02-14 20:17:20.577058,38884479-11eb-4d49-828a-1c22d5fdb76a,Dairy,Cream Cheese,3.5,3,10.5
+Larry Lee,1fb797fa-b7d6-467b-af5a-522af87f43fd,1963-09-26,gilesandrew@example.com,2024-02-14 20:17:20.577058,38884479-11eb-4d49-828a-1c22d5fdb76a,Meat,Shrimp,10.0,10,100.0
+Larry Lee,1fb797fa-b7d6-467b-af5a-522af87f43fd,1963-09-26,gilesandrew@example.com,2024-02-02 14:32:09.389982,2e295065-6fa2-41e9-99ac-dd984d125e7f,Vegetables,Onion,0.9,4,3.6
+Larry Lee,1fb797fa-b7d6-467b-af5a-522af87f43fd,1963-09-26,gilesandrew@example.com,2024-02-02 14:32:09.389982,2e295065-6fa2-41e9-99ac-dd984d125e7f,Meat,Duck,8.0,6,48.0
+Larry Lee,1fb797fa-b7d6-467b-af5a-522af87f43fd,1963-09-26,gilesandrew@example.com,2024-02-02 14:32:09.389982,2e295065-6fa2-41e9-99ac-dd984d125e7f,Dairy,Cream Cheese,3.5,8,28.0
+Larry Lee,1fb797fa-b7d6-467b-af5a-522af87f43fd,1963-09-26,gilesandrew@example.com,2024-02-02 14:32:09.389982,2e295065-6fa2-41e9-99ac-dd984d125e7f,Fruits,Grapes,2.0,4,8.0
+John Carlson,3308fb2e-642a-4d48-bcfc-fa81b306d700,1938-04-27,kmassey@example.org,2024-02-16 13:34:09.477272,0edc6d2b-c470-40e7-b76f-bfb83412fc12,Fruits,Peach,1.6,9,14.4
+John Carlson,3308fb2e-642a-4d48-bcfc-fa81b306d700,1938-04-27,kmassey@example.org,2024-02-16 13:34:09.477272,0edc6d2b-c470-40e7-b76f-bfb83412fc12,Vegetables,Garlic,1.1,4,4.4
+John Carlson,3308fb2e-642a-4d48-bcfc-fa81b306d700,1938-04-27,kmassey@example.org,2024-02-16 13:34:09.477272,0edc6d2b-c470-40e7-b76f-bfb83412fc12,Fruits,Banana,0.75,1,0.75
+Brooke Martin,98c75205-1e01-4934-802d-0baf878b9f6b,2015-01-11,alexandermaldonado@example.net,2024-02-20 12:23:54.162463,5b6e4ae7-a620-4143-8fba-ecc0eae2025e,Fruits,Watermelon,2.5,2,5.0
+Brooke Martin,98c75205-1e01-4934-802d-0baf878b9f6b,2015-01-11,alexandermaldonado@example.net,2024-02-09 16:05:29.298381,8f837ef7-2746-4f22-803d-1f83a859890c,Vegetables,Potato,0.6,8,4.8
+Brooke Martin,98c75205-1e01-4934-802d-0baf878b9f6b,2015-01-11,alexandermaldonado@example.net,2024-02-09 16:05:29.298381,8f837ef7-2746-4f22-803d-1f83a859890c,Vegetables,Onion,0.9,3,2.7
+Brooke Martin,98c75205-1e01-4934-802d-0baf878b9f6b,2015-01-11,alexandermaldonado@example.net,2024-02-09 16:05:29.298381,8f837ef7-2746-4f22-803d-1f83a859890c,Grains,Farro,2.2,8,17.6
+Brooke Martin,98c75205-1e01-4934-802d-0baf878b9f6b,2015-01-11,alexandermaldonado@example.net,2024-02-09 16:05:29.298381,8f837ef7-2746-4f22-803d-1f83a859890c,Vegetables,Bell Pepper,1.3,7,9.1
+Brooke Martin,98c75205-1e01-4934-802d-0baf878b9f6b,2015-01-11,alexandermaldonado@example.net,2024-02-09 16:05:29.298381,8f837ef7-2746-4f22-803d-1f83a859890c,Vegetables,Broccoli,1.0,2,2.0
+Judith Miller,47e7f593-8b58-45ca-8bb2-c3f0bd30291a,1923-10-14,sbell@example.net,2024-02-09 00:19:40.063772,da90f534-a23d-4c9d-a456-697cf2686baa,Dairy,Sour Cream,2.2,8,17.6
+Judith Miller,47e7f593-8b58-45ca-8bb2-c3f0bd30291a,1923-10-14,sbell@example.net,2024-02-09 00:19:40.063772,da90f534-a23d-4c9d-a456-697cf2686baa,Fruits,Banana,0.75,1,0.75
+Judith Miller,47e7f593-8b58-45ca-8bb2-c3f0bd30291a,1923-10-14,sbell@example.net,2024-02-09 00:19:40.063772,da90f534-a23d-4c9d-a456-697cf2686baa,Dairy,Cream,2.5,2,5.0
+Judith Miller,47e7f593-8b58-45ca-8bb2-c3f0bd30291a,1923-10-14,sbell@example.net,2024-02-14 20:32:39.779156,bf9cc545-6355-48f7-8f6f-a985b732d46f,Vegetables,Tomato,0.8,9,7.2
+Judith Miller,47e7f593-8b58-45ca-8bb2-c3f0bd30291a,1923-10-14,sbell@example.net,2024-02-14 20:32:39.779156,bf9cc545-6355-48f7-8f6f-a985b732d46f,Dairy,Yogurt,1.5,7,10.5
+Judith Miller,47e7f593-8b58-45ca-8bb2-c3f0bd30291a,1923-10-14,sbell@example.net,2024-02-10 05:53:33.465394,98363189-0063-442f-94aa-451ca69cfb85,Meat,Salmon,9.0,4,36.0
+Judith Miller,47e7f593-8b58-45ca-8bb2-c3f0bd30291a,1923-10-14,sbell@example.net,2024-02-10 05:53:33.465394,98363189-0063-442f-94aa-451ca69cfb85,Fruits,Mango,1.9,9,17.099999999999998
+Judith Miller,47e7f593-8b58-45ca-8bb2-c3f0bd30291a,1923-10-14,sbell@example.net,2024-02-05 06:58:07.217774,391cf046-3d4a-4d51-a8fa-fd04559b5975,Fruits,Kiwi,1.1,1,1.1
+Jamie Hutchinson,08135d58-6a16-49ad-9fe1-b30791725f0a,1954-10-22,tbarton@example.org,2024-02-04 16:42:27.622334,285e25b4-b396-4057-825c-b200105ada6b,Vegetables,Spinach,1.5,8,12.0
+Jamie Hutchinson,08135d58-6a16-49ad-9fe1-b30791725f0a,1954-10-22,tbarton@example.org,2024-02-04 16:42:27.622334,285e25b4-b396-4057-825c-b200105ada6b,Dairy,Butter,2.5,7,17.5
+Stephen Odonnell,e245a460-0004-484c-8167-733f9a9e4310,1912-08-28,larry70@example.com,2024-02-05 04:39:42.834354,fa83ada4-a212-4ac5-b689-a4a5ffda0336,Dairy,Milk,2.0,7,14.0
+Stephen Odonnell,e245a460-0004-484c-8167-733f9a9e4310,1912-08-28,larry70@example.com,2024-02-05 04:39:42.834354,fa83ada4-a212-4ac5-b689-a4a5ffda0336,Meat,Salmon,9.0,5,45.0
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-12 18:53:35.929426,9bbd750d-1e70-4c52-b0c1-fb6a19086515,Dairy,Yogurt,1.5,4,6.0
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-12 18:53:35.929426,9bbd750d-1e70-4c52-b0c1-fb6a19086515,Meat,Fish,6.0,1,6.0
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-12 18:53:35.929426,9bbd750d-1e70-4c52-b0c1-fb6a19086515,Grains,Millet,2.1,1,2.1
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-12 18:53:35.929426,9bbd750d-1e70-4c52-b0c1-fb6a19086515,Meat,Beef,5.0,1,5.0
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-12 18:53:35.929426,9bbd750d-1e70-4c52-b0c1-fb6a19086515,Grains,Bulgur,2.3,9,20.7
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-15 11:38:14.816086,b044284a-47ac-42f6-8d6b-234fdfa7c6ed,Vegetables,Carrot,0.5,9,4.5
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-15 11:38:14.816086,b044284a-47ac-42f6-8d6b-234fdfa7c6ed,Fruits,Orange,1.2,2,2.4
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-15 11:38:14.816086,b044284a-47ac-42f6-8d6b-234fdfa7c6ed,Grains,Bread,1.5,4,6.0
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-15 11:38:14.816086,b044284a-47ac-42f6-8d6b-234fdfa7c6ed,Dairy,Cheese,3.0,10,30.0
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-15 11:38:14.816086,b044284a-47ac-42f6-8d6b-234fdfa7c6ed,Vegetables,Garlic,1.1,10,11.0
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-22 19:55:41.840841,ec3aa314-da9b-4017-b9c1-47c719a5711b,Grains,Bread,1.5,7,10.5
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-09 20:24:13.700095,e9f41cc0-4653-4560-8597-aab614d30dbc,Grains,Millet,2.1,6,12.600000000000001
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-09 20:24:13.700095,e9f41cc0-4653-4560-8597-aab614d30dbc,Meat,Fish,6.0,6,36.0
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-09 20:24:13.700095,e9f41cc0-4653-4560-8597-aab614d30dbc,Vegetables,Potato,0.6,7,4.2
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-09 20:24:13.700095,e9f41cc0-4653-4560-8597-aab614d30dbc,Vegetables,Potato,0.6,8,4.8
+Nicholas Hatfield,6ae04d52-adb3-48cb-b315-8c0c66dd7794,1944-10-27,alexisfischer@example.net,2024-02-09 20:24:13.700095,e9f41cc0-4653-4560-8597-aab614d30dbc,Meat,Chicken,3.0,1,3.0
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-01 22:38:50.954228,8ef066d4-4279-414d-ae55-cdff34ab18fd,Grains,Bread,1.5,2,3.0
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-01 22:38:50.954228,8ef066d4-4279-414d-ae55-cdff34ab18fd,Grains,Quinoa,3.0,9,27.0
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-01 22:38:50.954228,8ef066d4-4279-414d-ae55-cdff34ab18fd,Meat,Pork,4.0,6,24.0
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-01 22:38:50.954228,8ef066d4-4279-414d-ae55-cdff34ab18fd,Fruits,Grapes,2.0,6,12.0
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-01 22:38:50.954228,8ef066d4-4279-414d-ae55-cdff34ab18fd,Meat,Pork,4.0,8,32.0
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-08 00:30:27.063562,e8ec01b3-9145-41ae-b03d-866a5decc06a,Meat,Crab,12.0,9,108.0
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-08 00:30:27.063562,e8ec01b3-9145-41ae-b03d-866a5decc06a,Fruits,Kiwi,1.1,5,5.5
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-08 00:30:27.063562,e8ec01b3-9145-41ae-b03d-866a5decc06a,Fruits,Orange,1.2,5,6.0
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-08 00:30:27.063562,e8ec01b3-9145-41ae-b03d-866a5decc06a,Fruits,Banana,0.75,9,6.75
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-08 00:30:27.063562,e8ec01b3-9145-41ae-b03d-866a5decc06a,Vegetables,Potato,0.6,5,3.0
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-19 22:48:58.056300,b38a05fb-f611-44ce-bfc7-4ca9d8ab0b30,Vegetables,Cucumber,0.7,4,2.8
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-19 22:48:58.056300,b38a05fb-f611-44ce-bfc7-4ca9d8ab0b30,Meat,Shrimp,10.0,8,80.0
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-19 22:48:58.056300,b38a05fb-f611-44ce-bfc7-4ca9d8ab0b30,Meat,Beef,5.0,2,10.0
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-19 22:48:58.056300,b38a05fb-f611-44ce-bfc7-4ca9d8ab0b30,Dairy,Eggs,1.8,1,1.8
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-19 22:48:58.056300,b38a05fb-f611-44ce-bfc7-4ca9d8ab0b30,Fruits,Watermelon,2.5,3,7.5
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-14 13:19:35.669900,e7180322-a4e6-45c9-b65d-12267e969cf3,Vegetables,Bell Pepper,1.3,9,11.700000000000001
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-14 13:19:35.669900,e7180322-a4e6-45c9-b65d-12267e969cf3,Dairy,Cream Cheese,3.5,1,3.5
+Ricky Callahan,d138d150-8557-416a-a750-2a812227d96d,1983-08-21,darin24@example.org,2024-02-14 13:19:35.669900,e7180322-a4e6-45c9-b65d-12267e969cf3,Fruits,Banana,0.75,3,2.25
+Jeffrey Savage,964ddb77-6025-40ae-b535-45792da44da1,1941-11-26,edwardcook@example.com,2024-02-17 00:42:27.154860,09215f4f-9edb-45f2-8787-ddfb5697f17c,Meat,Crab,12.0,9,108.0
+Jeffrey Savage,964ddb77-6025-40ae-b535-45792da44da1,1941-11-26,edwardcook@example.com,2024-02-01 22:03:40.951335,955d0e77-fb5e-4866-a640-211e29f2c3c7,Dairy,Yogurt,1.5,1,1.5
+Jeffrey Savage,964ddb77-6025-40ae-b535-45792da44da1,1941-11-26,edwardcook@example.com,2024-02-01 22:03:40.951335,955d0e77-fb5e-4866-a640-211e29f2c3c7,Meat,Turkey,4.5,1,4.5
+Jeffrey Savage,964ddb77-6025-40ae-b535-45792da44da1,1941-11-26,edwardcook@example.com,2024-02-07 11:01:26.644580,2130260c-8c69-478f-bd42-f69765111656,Vegetables,Tomato,0.8,2,1.6
+Jeffrey Savage,964ddb77-6025-40ae-b535-45792da44da1,1941-11-26,edwardcook@example.com,2024-02-07 11:01:26.644580,2130260c-8c69-478f-bd42-f69765111656,Meat,Shrimp,10.0,7,70.0
+Jeffrey Savage,964ddb77-6025-40ae-b535-45792da44da1,1941-11-26,edwardcook@example.com,2024-02-07 11:01:26.644580,2130260c-8c69-478f-bd42-f69765111656,Grains,Pasta,2.0,4,8.0
+Jeffrey Savage,964ddb77-6025-40ae-b535-45792da44da1,1941-11-26,edwardcook@example.com,2024-02-07 13:05:58.132694,ef0a81ed-3d5d-40bc-bb03-78eb7a62722e,Vegetables,Spinach,1.5,1,1.5
+Jeffrey Savage,964ddb77-6025-40ae-b535-45792da44da1,1941-11-26,edwardcook@example.com,2024-02-07 13:05:58.132694,ef0a81ed-3d5d-40bc-bb03-78eb7a62722e,Vegetables,Cucumber,0.7,7,4.8999999999999995
+Jeffrey Savage,964ddb77-6025-40ae-b535-45792da44da1,1941-11-26,edwardcook@example.com,2024-02-02 01:50:16.792411,ba8982dd-85e6-4ea9-9b66-bfda2df96747,Meat,Pork,4.0,2,8.0
+Jeffrey Savage,964ddb77-6025-40ae-b535-45792da44da1,1941-11-26,edwardcook@example.com,2024-02-02 01:50:16.792411,ba8982dd-85e6-4ea9-9b66-bfda2df96747,Dairy,Milk,2.0,8,16.0
+Jamie Murphy,8f928dc5-1972-4ce3-9bd0-94486a2b3200,2013-07-19,zrogers@example.com,2024-02-03 18:34:02.894015,6d316b4a-7f6b-4793-b318-ad4c1db2b452,Dairy,Cream,2.5,5,12.5
+Jamie Murphy,8f928dc5-1972-4ce3-9bd0-94486a2b3200,2013-07-19,zrogers@example.com,2024-02-03 18:34:02.894015,6d316b4a-7f6b-4793-b318-ad4c1db2b452,Vegetables,Tomato,0.8,1,0.8
+Jamie Murphy,8f928dc5-1972-4ce3-9bd0-94486a2b3200,2013-07-19,zrogers@example.com,2024-02-01 20:15:08.572149,e4f7625e-afe6-490a-bc18-a40b55c7ed9d,Dairy,Cream,2.5,5,12.5
+Jamie Murphy,8f928dc5-1972-4ce3-9bd0-94486a2b3200,2013-07-19,zrogers@example.com,2024-02-01 20:15:08.572149,e4f7625e-afe6-490a-bc18-a40b55c7ed9d,Fruits,Strawberry,1.8,6,10.8
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-01 04:12:13.244581,4a31b243-84dd-4da6-8e75-1eb764d09913,Grains,Barley,2.5,1,2.5
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-01 04:12:13.244581,4a31b243-84dd-4da6-8e75-1eb764d09913,Fruits,Strawberry,1.8,3,5.4
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-01 04:12:13.244581,4a31b243-84dd-4da6-8e75-1eb764d09913,Grains,Oats,1.2,1,1.2
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-01 04:12:13.244581,4a31b243-84dd-4da6-8e75-1eb764d09913,Fruits,Peach,1.6,7,11.200000000000001
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-11 00:09:53.780423,b6e355f6-95bb-440d-89cd-4af97d161f29,Meat,Duck,8.0,10,80.0
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-11 00:09:53.780423,b6e355f6-95bb-440d-89cd-4af97d161f29,Grains,Bread,1.5,7,10.5
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-11 00:09:53.780423,b6e355f6-95bb-440d-89cd-4af97d161f29,Grains,Quinoa,3.0,5,15.0
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-16 03:43:13.060251,385af463-5e4a-4862-956a-f4586c4c3935,Dairy,Milk,2.0,9,18.0
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-23 01:15:09.199735,2aa50f4e-c6f0-4933-95d1-805142cb6d1d,Vegetables,Cucumber,0.7,7,4.8999999999999995
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-23 01:15:09.199735,2aa50f4e-c6f0-4933-95d1-805142cb6d1d,Fruits,Watermelon,2.5,10,25.0
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-23 01:15:09.199735,2aa50f4e-c6f0-4933-95d1-805142cb6d1d,Meat,Chicken,3.0,5,15.0
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-23 01:15:09.199735,2aa50f4e-c6f0-4933-95d1-805142cb6d1d,Grains,Oats,1.2,7,8.4
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-23 01:15:09.199735,2aa50f4e-c6f0-4933-95d1-805142cb6d1d,Meat,Duck,8.0,5,40.0
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-10 14:53:22.242135,d26d5396-1058-4e8c-9d71-73e55bc7fdeb,Vegetables,Tomato,0.8,7,5.6000000000000005
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-10 14:53:22.242135,d26d5396-1058-4e8c-9d71-73e55bc7fdeb,Dairy,Yogurt,1.5,10,15.0
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-10 14:53:22.242135,d26d5396-1058-4e8c-9d71-73e55bc7fdeb,Grains,Oats,1.2,7,8.4
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-10 14:53:22.242135,d26d5396-1058-4e8c-9d71-73e55bc7fdeb,Grains,Rice,1.0,5,5.0
+Christopher Cunningham,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,1918-03-24,gonzalezjeffrey@example.com,2024-02-10 14:53:22.242135,d26d5396-1058-4e8c-9d71-73e55bc7fdeb,Meat,Fish,6.0,7,42.0
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-23 05:50:50.391125,25777cf0-9f98-4188-b744-da64cc249558,Meat,Salmon,9.0,8,72.0
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-23 05:50:50.391125,25777cf0-9f98-4188-b744-da64cc249558,Dairy,Butter,2.5,9,22.5
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-23 05:50:50.391125,25777cf0-9f98-4188-b744-da64cc249558,Dairy,Yogurt,1.5,2,3.0
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-23 05:50:50.391125,25777cf0-9f98-4188-b744-da64cc249558,Meat,Shrimp,10.0,10,100.0
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-23 05:50:50.391125,25777cf0-9f98-4188-b744-da64cc249558,Meat,Chicken,3.0,4,12.0
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-03 08:01:19.481028,8be04c3e-5c94-4381-a0c6-b3ed755a3ac1,Vegetables,Tomato,0.8,3,2.4000000000000004
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-03 08:01:19.481028,8be04c3e-5c94-4381-a0c6-b3ed755a3ac1,Fruits,Apple,1.5,4,6.0
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-03 08:01:19.481028,8be04c3e-5c94-4381-a0c6-b3ed755a3ac1,Dairy,Ice Cream,4.0,2,8.0
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-19 10:47:42.135842,fba52e59-98a3-4736-bd1a-c7ce1ad0a6f2,Dairy,Ice Cream,4.0,4,16.0
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-19 10:47:42.135842,fba52e59-98a3-4736-bd1a-c7ce1ad0a6f2,Dairy,Cottage Cheese,2.0,7,14.0
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-19 10:47:42.135842,fba52e59-98a3-4736-bd1a-c7ce1ad0a6f2,Vegetables,Lettuce,1.2,1,1.2
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-19 10:47:42.135842,fba52e59-98a3-4736-bd1a-c7ce1ad0a6f2,Fruits,Pineapple,1.4,4,5.6
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-11 21:14:16.793882,ae0fdbc8-a36b-4b01-a7e9-8363905c053b,Grains,Bulgur,2.3,1,2.3
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-11 21:14:16.793882,ae0fdbc8-a36b-4b01-a7e9-8363905c053b,Grains,Quinoa,3.0,2,6.0
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-10 10:36:56.219378,eac39204-ade7-4ef3-bed2-ec2f856f3d95,Vegetables,Bell Pepper,1.3,9,11.700000000000001
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-10 10:36:56.219378,eac39204-ade7-4ef3-bed2-ec2f856f3d95,Grains,Farro,2.2,6,13.200000000000001
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-10 10:36:56.219378,eac39204-ade7-4ef3-bed2-ec2f856f3d95,Dairy,Ice Cream,4.0,9,36.0
+Michaela Leach,33a1d1c2-ad4a-4155-809f-cd8f739cd488,1921-12-09,pscott@example.org,2024-02-10 10:36:56.219378,eac39204-ade7-4ef3-bed2-ec2f856f3d95,Dairy,Cream Cheese,3.5,8,28.0
+Sandra Bolton,33b5b3ce-dfec-4623-ab89-9605a2939b3b,1971-02-10,alecthornton@example.net,2024-02-21 01:21:27.438747,866d7002-0914-42ad-9263-1db9d17034ce,Dairy,Eggs,1.8,4,7.2
+Sandra Bolton,33b5b3ce-dfec-4623-ab89-9605a2939b3b,1971-02-10,alecthornton@example.net,2024-02-21 01:21:27.438747,866d7002-0914-42ad-9263-1db9d17034ce,Meat,Shrimp,10.0,8,80.0
+Sandra Bolton,33b5b3ce-dfec-4623-ab89-9605a2939b3b,1971-02-10,alecthornton@example.net,2024-02-21 01:21:27.438747,866d7002-0914-42ad-9263-1db9d17034ce,Vegetables,Potato,0.6,8,4.8
+Sandra Bolton,33b5b3ce-dfec-4623-ab89-9605a2939b3b,1971-02-10,alecthornton@example.net,2024-02-21 01:21:27.438747,866d7002-0914-42ad-9263-1db9d17034ce,Fruits,Strawberry,1.8,4,7.2
+Sandra Bolton,33b5b3ce-dfec-4623-ab89-9605a2939b3b,1971-02-10,alecthornton@example.net,2024-02-04 07:26:25.326124,27e969e2-c8bf-43fb-9a43-1f7a41c30359,Meat,Turkey,4.5,9,40.5
+Sandra Bolton,33b5b3ce-dfec-4623-ab89-9605a2939b3b,1971-02-10,alecthornton@example.net,2024-02-04 07:26:25.326124,27e969e2-c8bf-43fb-9a43-1f7a41c30359,Fruits,Orange,1.2,3,3.5999999999999996
+Sandra Bolton,33b5b3ce-dfec-4623-ab89-9605a2939b3b,1971-02-10,alecthornton@example.net,2024-02-04 07:26:25.326124,27e969e2-c8bf-43fb-9a43-1f7a41c30359,Vegetables,Spinach,1.5,3,4.5
+Lauren Robbins,ccc93ff7-10fc-497d-b86e-30efce9b2e70,1917-12-18,jonesdavid@example.com,2024-02-01 08:11:02.947974,dca5b353-54a1-4505-b2d6-bc20d80d6a1c,Dairy,Sour Cream,2.2,6,13.200000000000001
+Lauren Robbins,ccc93ff7-10fc-497d-b86e-30efce9b2e70,1917-12-18,jonesdavid@example.com,2024-02-04 14:02:18.929110,75f2bc20-a7f5-495c-9e62-d43f261908b9,Dairy,Sour Cream,2.2,1,2.2
+Lauren Robbins,ccc93ff7-10fc-497d-b86e-30efce9b2e70,1917-12-18,jonesdavid@example.com,2024-02-04 14:02:18.929110,75f2bc20-a7f5-495c-9e62-d43f261908b9,Vegetables,Spinach,1.5,7,10.5
+Lauren Robbins,ccc93ff7-10fc-497d-b86e-30efce9b2e70,1917-12-18,jonesdavid@example.com,2024-02-04 14:02:18.929110,75f2bc20-a7f5-495c-9e62-d43f261908b9,Grains,Rice,1.0,10,10.0
+Lauren Robbins,ccc93ff7-10fc-497d-b86e-30efce9b2e70,1917-12-18,jonesdavid@example.com,2024-02-04 14:02:18.929110,75f2bc20-a7f5-495c-9e62-d43f261908b9,Dairy,Cottage Cheese,2.0,1,2.0
+Lauren Robbins,ccc93ff7-10fc-497d-b86e-30efce9b2e70,1917-12-18,jonesdavid@example.com,2024-02-04 14:02:18.929110,75f2bc20-a7f5-495c-9e62-d43f261908b9,Meat,Lamb,7.0,7,49.0
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-07 11:05:43.558240,d360da69-6af7-4ad2-993e-c8c6e6b106e2,Grains,Farro,2.2,4,8.8
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-07 11:05:43.558240,d360da69-6af7-4ad2-993e-c8c6e6b106e2,Dairy,Butter,2.5,5,12.5
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-07 11:05:43.558240,d360da69-6af7-4ad2-993e-c8c6e6b106e2,Dairy,Cottage Cheese,2.0,1,2.0
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-07 11:05:43.558240,d360da69-6af7-4ad2-993e-c8c6e6b106e2,Dairy,Cream,2.5,7,17.5
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-07 11:05:43.558240,d360da69-6af7-4ad2-993e-c8c6e6b106e2,Vegetables,Bell Pepper,1.3,3,3.9000000000000004
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-22 16:44:00.744632,63794035-f8e4-4086-8a81-9c6fd872298c,Grains,Rice,1.0,7,7.0
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-22 16:44:00.744632,63794035-f8e4-4086-8a81-9c6fd872298c,Grains,Farro,2.2,1,2.2
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-22 16:44:00.744632,63794035-f8e4-4086-8a81-9c6fd872298c,Fruits,Pineapple,1.4,3,4.199999999999999
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-22 16:44:00.744632,63794035-f8e4-4086-8a81-9c6fd872298c,Dairy,Yogurt,1.5,1,1.5
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-22 16:44:00.744632,63794035-f8e4-4086-8a81-9c6fd872298c,Meat,Duck,8.0,6,48.0
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-14 13:14:14.562280,cc4da021-dd62-4222-99ef-e28b3bcb50b3,Dairy,Cream,2.5,6,15.0
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-14 13:14:14.562280,cc4da021-dd62-4222-99ef-e28b3bcb50b3,Dairy,Eggs,1.8,7,12.6
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-01 10:57:59.767214,2e9583ea-bda1-4da2-800f-c63de2a01335,Fruits,Mango,1.9,1,1.9
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-01 10:57:59.767214,2e9583ea-bda1-4da2-800f-c63de2a01335,Grains,Rice,1.0,6,6.0
+Kathy Santana,1734a26c-92e9-4e89-889b-30a0809f2923,1986-11-10,burgessrebecca@example.org,2024-02-01 10:57:59.767214,2e9583ea-bda1-4da2-800f-c63de2a01335,Vegetables,Broccoli,1.0,1,1.0
+Kelly Cook,f164f9d8-4312-4ce2-9c21-51e17e56ac3d,2003-11-06,ycruz@example.org,2024-02-04 15:42:04.688148,497e9f1a-3d2b-4042-a098-18d1ef7e85ec,Vegetables,Carrot,0.5,10,5.0
+Kelly Cook,f164f9d8-4312-4ce2-9c21-51e17e56ac3d,2003-11-06,ycruz@example.org,2024-02-04 15:42:04.688148,497e9f1a-3d2b-4042-a098-18d1ef7e85ec,Vegetables,Tomato,0.8,3,2.4000000000000004
+Felicia Mcmahon,7de8a234-2412-479d-aaf9-44e07b38785b,2011-05-19,nunezedward@example.com,2024-02-10 04:08:15.341055,7579501a-62fd-4854-b75e-0ec39c9d03f3,Grains,Quinoa,3.0,8,24.0
+Felicia Mcmahon,7de8a234-2412-479d-aaf9-44e07b38785b,2011-05-19,nunezedward@example.com,2024-02-02 01:10:58.532038,052daad3-26c0-4984-8734-bb05788c31f6,Meat,Pork,4.0,10,40.0
+Felicia Mcmahon,7de8a234-2412-479d-aaf9-44e07b38785b,2011-05-19,nunezedward@example.com,2024-02-02 01:10:58.532038,052daad3-26c0-4984-8734-bb05788c31f6,Grains,Bread,1.5,3,4.5
+Felicia Mcmahon,7de8a234-2412-479d-aaf9-44e07b38785b,2011-05-19,nunezedward@example.com,2024-02-02 01:10:58.532038,052daad3-26c0-4984-8734-bb05788c31f6,Meat,Chicken,3.0,10,30.0
+Felicia Mcmahon,7de8a234-2412-479d-aaf9-44e07b38785b,2011-05-19,nunezedward@example.com,2024-02-01 17:22:58.964326,52ebdac5-a145-4899-a1f8-c1569e0df45b,Meat,Crab,12.0,7,84.0
+Felicia Mcmahon,7de8a234-2412-479d-aaf9-44e07b38785b,2011-05-19,nunezedward@example.com,2024-02-03 08:22:37.710630,31e9ca80-58bf-4b9e-a624-5b598c94af98,Vegetables,Broccoli,1.0,10,10.0
+Felicia Mcmahon,7de8a234-2412-479d-aaf9-44e07b38785b,2011-05-19,nunezedward@example.com,2024-02-03 08:22:37.710630,31e9ca80-58bf-4b9e-a624-5b598c94af98,Vegetables,Broccoli,1.0,5,5.0
+Felicia Mcmahon,7de8a234-2412-479d-aaf9-44e07b38785b,2011-05-19,nunezedward@example.com,2024-02-03 08:22:37.710630,31e9ca80-58bf-4b9e-a624-5b598c94af98,Grains,Bread,1.5,10,15.0
+Felicia Mcmahon,7de8a234-2412-479d-aaf9-44e07b38785b,2011-05-19,nunezedward@example.com,2024-02-03 08:22:37.710630,31e9ca80-58bf-4b9e-a624-5b598c94af98,Fruits,Watermelon,2.5,9,22.5
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-22 09:11:41.862271,eab9221b-4b36-4545-8ca1-a034633cbf79,Fruits,Kiwi,1.1,6,6.6000000000000005
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-22 09:11:41.862271,eab9221b-4b36-4545-8ca1-a034633cbf79,Fruits,Pineapple,1.4,8,11.2
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-22 09:11:41.862271,eab9221b-4b36-4545-8ca1-a034633cbf79,Fruits,Pineapple,1.4,6,8.399999999999999
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-17 15:18:59.876505,cf6c9992-fbbf-49e0-ae56-702af521ca9f,Vegetables,Spinach,1.5,3,4.5
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-17 15:18:59.876505,cf6c9992-fbbf-49e0-ae56-702af521ca9f,Grains,Oats,1.2,10,12.0
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-17 15:18:59.876505,cf6c9992-fbbf-49e0-ae56-702af521ca9f,Grains,Bulgur,2.3,8,18.4
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-17 15:18:59.876505,cf6c9992-fbbf-49e0-ae56-702af521ca9f,Dairy,Ice Cream,4.0,5,20.0
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-03 17:04:58.944396,306aa871-feef-41cb-8915-d113dc45488d,Vegetables,Broccoli,1.0,5,5.0
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-03 17:04:58.944396,306aa871-feef-41cb-8915-d113dc45488d,Dairy,Butter,2.5,8,20.0
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-03 17:04:58.944396,306aa871-feef-41cb-8915-d113dc45488d,Grains,Farro,2.2,7,15.400000000000002
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-01 20:26:42.550804,c1b199c4-5f1f-497c-b1cf-f814645bd776,Fruits,Mango,1.9,6,11.399999999999999
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-01 20:26:42.550804,c1b199c4-5f1f-497c-b1cf-f814645bd776,Vegetables,Bell Pepper,1.3,4,5.2
+Ricardo Henry,b368c553-9c30-4eaa-8f66-b32de19b5837,1962-05-04,debra94@example.org,2024-02-01 20:26:42.550804,c1b199c4-5f1f-497c-b1cf-f814645bd776,Meat,Lamb,7.0,6,42.0
+Herbert Chen,ef2d9a38-e6e4-48df-8b6d-9611f4dd05d5,1912-10-12,rachel89@example.net,2024-02-20 12:58:21.640325,d1c3d1bc-c6be-4432-97ee-0eb03acaaf82,Meat,Shrimp,10.0,1,10.0
+Herbert Chen,ef2d9a38-e6e4-48df-8b6d-9611f4dd05d5,1912-10-12,rachel89@example.net,2024-02-20 12:58:21.640325,d1c3d1bc-c6be-4432-97ee-0eb03acaaf82,Grains,Quinoa,3.0,2,6.0
+Herbert Chen,ef2d9a38-e6e4-48df-8b6d-9611f4dd05d5,1912-10-12,rachel89@example.net,2024-02-20 12:58:21.640325,d1c3d1bc-c6be-4432-97ee-0eb03acaaf82,Vegetables,Spinach,1.5,8,12.0
+Herbert Chen,ef2d9a38-e6e4-48df-8b6d-9611f4dd05d5,1912-10-12,rachel89@example.net,2024-02-20 12:58:21.640325,d1c3d1bc-c6be-4432-97ee-0eb03acaaf82,Grains,Quinoa,3.0,8,24.0
+Herbert Chen,ef2d9a38-e6e4-48df-8b6d-9611f4dd05d5,1912-10-12,rachel89@example.net,2024-02-20 12:58:21.640325,d1c3d1bc-c6be-4432-97ee-0eb03acaaf82,Dairy,Cottage Cheese,2.0,1,2.0
+Herbert Chen,ef2d9a38-e6e4-48df-8b6d-9611f4dd05d5,1912-10-12,rachel89@example.net,2024-02-20 17:41:21.022906,b2d10e3d-809e-4109-8786-7a38a09f1aed,Meat,Fish,6.0,7,42.0
+Herbert Chen,ef2d9a38-e6e4-48df-8b6d-9611f4dd05d5,1912-10-12,rachel89@example.net,2024-02-12 16:24:42.788781,1d0ab994-f20b-475d-8e28-e67481d1bf06,Meat,Crab,12.0,6,72.0
+Herbert Chen,ef2d9a38-e6e4-48df-8b6d-9611f4dd05d5,1912-10-12,rachel89@example.net,2024-02-12 16:24:42.788781,1d0ab994-f20b-475d-8e28-e67481d1bf06,Dairy,Cream Cheese,3.5,9,31.5
+Steven Henderson,6a677623-1ad1-4aaa-af8d-9ff015831fee,1915-06-11,uayala@example.org,2024-02-18 15:42:36.867959,07b6e08e-6ac1-4a75-afb9-18c86e5bac20,Grains,Barley,2.5,6,15.0
+Steven Henderson,6a677623-1ad1-4aaa-af8d-9ff015831fee,1915-06-11,uayala@example.org,2024-02-18 15:42:36.867959,07b6e08e-6ac1-4a75-afb9-18c86e5bac20,Dairy,Eggs,1.8,5,9.0
+Steven Henderson,6a677623-1ad1-4aaa-af8d-9ff015831fee,1915-06-11,uayala@example.org,2024-02-18 15:42:36.867959,07b6e08e-6ac1-4a75-afb9-18c86e5bac20,Meat,Fish,6.0,2,12.0
+Steven Henderson,6a677623-1ad1-4aaa-af8d-9ff015831fee,1915-06-11,uayala@example.org,2024-02-18 15:42:36.867959,07b6e08e-6ac1-4a75-afb9-18c86e5bac20,Vegetables,Cucumber,0.7,2,1.4
+Steven Henderson,6a677623-1ad1-4aaa-af8d-9ff015831fee,1915-06-11,uayala@example.org,2024-02-12 01:54:31.567461,b8f8903b-5312-4ffd-b655-860bdd32e231,Vegetables,Tomato,0.8,4,3.2
+Steven Henderson,6a677623-1ad1-4aaa-af8d-9ff015831fee,1915-06-11,uayala@example.org,2024-02-12 01:54:31.567461,b8f8903b-5312-4ffd-b655-860bdd32e231,Dairy,Eggs,1.8,10,18.0
+Steven Henderson,6a677623-1ad1-4aaa-af8d-9ff015831fee,1915-06-11,uayala@example.org,2024-02-12 01:54:31.567461,b8f8903b-5312-4ffd-b655-860bdd32e231,Grains,Farro,2.2,5,11.0
+Steven Henderson,6a677623-1ad1-4aaa-af8d-9ff015831fee,1915-06-11,uayala@example.org,2024-02-12 01:54:31.567461,b8f8903b-5312-4ffd-b655-860bdd32e231,Fruits,Grapes,2.0,5,10.0
+Steven Henderson,6a677623-1ad1-4aaa-af8d-9ff015831fee,1915-06-11,uayala@example.org,2024-02-12 01:54:31.567461,b8f8903b-5312-4ffd-b655-860bdd32e231,Vegetables,Cucumber,0.7,3,2.0999999999999996
+Steven Henderson,6a677623-1ad1-4aaa-af8d-9ff015831fee,1915-06-11,uayala@example.org,2024-02-06 15:14:33.264103,5bf80676-1f12-40e9-9201-1caa5a3da367,Fruits,Kiwi,1.1,3,3.3000000000000003
+Steven Henderson,6a677623-1ad1-4aaa-af8d-9ff015831fee,1915-06-11,uayala@example.org,2024-02-06 15:14:33.264103,5bf80676-1f12-40e9-9201-1caa5a3da367,Meat,Beef,5.0,1,5.0
+Steven Henderson,6a677623-1ad1-4aaa-af8d-9ff015831fee,1915-06-11,uayala@example.org,2024-02-06 15:14:33.264103,5bf80676-1f12-40e9-9201-1caa5a3da367,Grains,Oats,1.2,3,3.5999999999999996
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-17 07:59:25.862928,01d6d903-bf7b-48ae-9f89-41b6e6a1a40b,Fruits,Peach,1.6,5,8.0
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-07 13:01:20.472963,9ad7558f-eecb-425b-864f-768db080e003,Dairy,Cottage Cheese,2.0,6,12.0
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-07 13:01:20.472963,9ad7558f-eecb-425b-864f-768db080e003,Vegetables,Carrot,0.5,5,2.5
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-07 13:01:20.472963,9ad7558f-eecb-425b-864f-768db080e003,Dairy,Cheese,3.0,2,6.0
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-07 13:01:20.472963,9ad7558f-eecb-425b-864f-768db080e003,Dairy,Cottage Cheese,2.0,2,4.0
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-06 04:40:56.441942,1cc5a8a0-743c-4e9d-afde-b0352452bc39,Fruits,Orange,1.2,3,3.5999999999999996
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-06 04:40:56.441942,1cc5a8a0-743c-4e9d-afde-b0352452bc39,Grains,Oats,1.2,2,2.4
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-06 04:40:56.441942,1cc5a8a0-743c-4e9d-afde-b0352452bc39,Vegetables,Broccoli,1.0,9,9.0
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-06 04:40:56.441942,1cc5a8a0-743c-4e9d-afde-b0352452bc39,Dairy,Ice Cream,4.0,10,40.0
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-06 04:40:56.441942,1cc5a8a0-743c-4e9d-afde-b0352452bc39,Grains,Quinoa,3.0,9,27.0
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-11 15:14:13.726715,215203c7-421a-415e-b58c-43ceb51d70d8,Dairy,Cottage Cheese,2.0,5,10.0
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-11 15:14:13.726715,215203c7-421a-415e-b58c-43ceb51d70d8,Grains,Couscous,2.0,5,10.0
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-11 15:14:13.726715,215203c7-421a-415e-b58c-43ceb51d70d8,Grains,Farro,2.2,1,2.2
+Haley Thompson,d1aa6c5e-3b01-4fcb-b96d-4403d48c93f3,1950-07-30,jaredharris@example.net,2024-02-11 15:14:13.726715,215203c7-421a-415e-b58c-43ceb51d70d8,Grains,Bread,1.5,4,6.0
+Daniel Rogers,efe78b60-4bdd-4f99-8ae9-ee11f5fe0213,2010-01-15,jack11@example.net,2024-02-13 23:00:19.129739,259cff81-e5ce-4ca6-a068-21d6280a07ee,Fruits,Orange,1.2,4,4.8
+Daniel Rogers,efe78b60-4bdd-4f99-8ae9-ee11f5fe0213,2010-01-15,jack11@example.net,2024-02-13 23:00:19.129739,259cff81-e5ce-4ca6-a068-21d6280a07ee,Vegetables,Onion,0.9,2,1.8
+Daniel Rogers,efe78b60-4bdd-4f99-8ae9-ee11f5fe0213,2010-01-15,jack11@example.net,2024-02-13 23:00:19.129739,259cff81-e5ce-4ca6-a068-21d6280a07ee,Vegetables,Carrot,0.5,7,3.5
+Daniel Rogers,efe78b60-4bdd-4f99-8ae9-ee11f5fe0213,2010-01-15,jack11@example.net,2024-02-22 02:20:47.111919,82221345-50de-4292-b90a-9016cdec85da,Grains,Bulgur,2.3,5,11.5
+Daniel Rogers,efe78b60-4bdd-4f99-8ae9-ee11f5fe0213,2010-01-15,jack11@example.net,2024-02-22 02:20:47.111919,82221345-50de-4292-b90a-9016cdec85da,Fruits,Grapes,2.0,5,10.0
+Daniel Rogers,efe78b60-4bdd-4f99-8ae9-ee11f5fe0213,2010-01-15,jack11@example.net,2024-02-22 02:20:47.111919,82221345-50de-4292-b90a-9016cdec85da,Meat,Salmon,9.0,2,18.0
+Daniel Rogers,efe78b60-4bdd-4f99-8ae9-ee11f5fe0213,2010-01-15,jack11@example.net,2024-02-22 02:20:47.111919,82221345-50de-4292-b90a-9016cdec85da,Vegetables,Potato,0.6,10,6.0
+Paul Carter,dc68d4fd-0bd7-496f-a9c7-2e7b6b770df1,1923-06-26,longjacqueline@example.org,2024-02-10 09:00:19.718684,ed28508d-bdaa-4bfa-aab0-15638cffbbb1,Fruits,Kiwi,1.1,4,4.4
+Paul Carter,dc68d4fd-0bd7-496f-a9c7-2e7b6b770df1,1923-06-26,longjacqueline@example.org,2024-02-10 09:00:19.718684,ed28508d-bdaa-4bfa-aab0-15638cffbbb1,Vegetables,Potato,0.6,3,1.7999999999999998
+Paul Carter,dc68d4fd-0bd7-496f-a9c7-2e7b6b770df1,1923-06-26,longjacqueline@example.org,2024-02-10 09:00:19.718684,ed28508d-bdaa-4bfa-aab0-15638cffbbb1,Fruits,Apple,1.5,3,4.5
+Paul Carter,dc68d4fd-0bd7-496f-a9c7-2e7b6b770df1,1923-06-26,longjacqueline@example.org,2024-02-10 09:00:19.718684,ed28508d-bdaa-4bfa-aab0-15638cffbbb1,Meat,Crab,12.0,10,120.0
+Paul Carter,dc68d4fd-0bd7-496f-a9c7-2e7b6b770df1,1923-06-26,longjacqueline@example.org,2024-02-04 04:10:59.221422,5ac4b6c7-a310-44dd-8c4b-91fe6c148fc6,Dairy,Cheese,3.0,8,24.0
+Paul Carter,dc68d4fd-0bd7-496f-a9c7-2e7b6b770df1,1923-06-26,longjacqueline@example.org,2024-02-04 04:10:59.221422,5ac4b6c7-a310-44dd-8c4b-91fe6c148fc6,Meat,Duck,8.0,5,40.0
+Paul Carter,dc68d4fd-0bd7-496f-a9c7-2e7b6b770df1,1923-06-26,longjacqueline@example.org,2024-02-04 04:10:59.221422,5ac4b6c7-a310-44dd-8c4b-91fe6c148fc6,Grains,Millet,2.1,8,16.8
+Jeremy Wood,605dd4d6-0ecf-495b-877a-2133f2ed33e1,1955-07-19,uhayden@example.com,2024-02-05 13:13:22.476351,174f7a54-788c-461e-b3cc-9d8a4b1678e4,Grains,Rice,1.0,7,7.0
+Jeremy Wood,605dd4d6-0ecf-495b-877a-2133f2ed33e1,1955-07-19,uhayden@example.com,2024-02-22 04:48:14.470007,1cb66f67-46e7-45ad-9bce-35d8cbe88a3f,Grains,Oats,1.2,1,1.2
+Jeremy Wood,605dd4d6-0ecf-495b-877a-2133f2ed33e1,1955-07-19,uhayden@example.com,2024-02-22 04:48:14.470007,1cb66f67-46e7-45ad-9bce-35d8cbe88a3f,Fruits,Grapes,2.0,10,20.0
+Jeremy Wood,605dd4d6-0ecf-495b-877a-2133f2ed33e1,1955-07-19,uhayden@example.com,2024-02-22 04:48:14.470007,1cb66f67-46e7-45ad-9bce-35d8cbe88a3f,Grains,Rice,1.0,5,5.0
+Jeremy Wood,605dd4d6-0ecf-495b-877a-2133f2ed33e1,1955-07-19,uhayden@example.com,2024-02-13 10:52:05.711615,b3dd77e1-cbb0-4fe9-a764-9a62b02de52c,Fruits,Orange,1.2,8,9.6
+Jeremy Wood,605dd4d6-0ecf-495b-877a-2133f2ed33e1,1955-07-19,uhayden@example.com,2024-02-13 10:52:05.711615,b3dd77e1-cbb0-4fe9-a764-9a62b02de52c,Grains,Bulgur,2.3,5,11.5
+Jeremy Wood,605dd4d6-0ecf-495b-877a-2133f2ed33e1,1955-07-19,uhayden@example.com,2024-02-13 10:52:05.711615,b3dd77e1-cbb0-4fe9-a764-9a62b02de52c,Vegetables,Garlic,1.1,7,7.700000000000001
+Jeremy Wood,605dd4d6-0ecf-495b-877a-2133f2ed33e1,1955-07-19,uhayden@example.com,2024-02-13 10:52:05.711615,b3dd77e1-cbb0-4fe9-a764-9a62b02de52c,Dairy,Cheese,3.0,8,24.0
+Jeremy Wood,605dd4d6-0ecf-495b-877a-2133f2ed33e1,1955-07-19,uhayden@example.com,2024-02-13 10:52:05.711615,b3dd77e1-cbb0-4fe9-a764-9a62b02de52c,Meat,Duck,8.0,6,48.0
+Jeremy Wood,605dd4d6-0ecf-495b-877a-2133f2ed33e1,1955-07-19,uhayden@example.com,2024-02-10 22:53:26.389104,6bf4d047-c484-4a8d-af75-1bde66163e5b,Fruits,Orange,1.2,6,7.199999999999999
+Jeremy Wood,605dd4d6-0ecf-495b-877a-2133f2ed33e1,1955-07-19,uhayden@example.com,2024-02-10 22:53:26.389104,6bf4d047-c484-4a8d-af75-1bde66163e5b,Dairy,Cottage Cheese,2.0,5,10.0
+Jeremy Wood,605dd4d6-0ecf-495b-877a-2133f2ed33e1,1955-07-19,uhayden@example.com,2024-02-10 22:53:26.389104,6bf4d047-c484-4a8d-af75-1bde66163e5b,Dairy,Cream Cheese,3.5,1,3.5
+David Chavez,5af95c78-247f-4d97-85fa-2d5cefe6171b,1961-10-14,webbjames@example.org,2024-02-19 12:30:05.593253,01fda698-7646-47ca-9e65-736c72f774b1,Meat,Lamb,7.0,6,42.0
+David Chavez,5af95c78-247f-4d97-85fa-2d5cefe6171b,1961-10-14,webbjames@example.org,2024-02-05 21:07:02.171277,a100ed14-fa92-4d28-84c5-36fb1d4d1180,Dairy,Cream Cheese,3.5,1,3.5
+David Chavez,5af95c78-247f-4d97-85fa-2d5cefe6171b,1961-10-14,webbjames@example.org,2024-02-07 17:15:00.475905,b4cfafa8-6c98-473d-a7fe-1b4b9bf1f1d1,Dairy,Sour Cream,2.2,1,2.2
+David Chavez,5af95c78-247f-4d97-85fa-2d5cefe6171b,1961-10-14,webbjames@example.org,2024-02-07 17:15:00.475905,b4cfafa8-6c98-473d-a7fe-1b4b9bf1f1d1,Vegetables,Onion,0.9,6,5.4
+David Chavez,5af95c78-247f-4d97-85fa-2d5cefe6171b,1961-10-14,webbjames@example.org,2024-02-07 17:15:00.475905,b4cfafa8-6c98-473d-a7fe-1b4b9bf1f1d1,Grains,Bulgur,2.3,8,18.4
+David Chavez,5af95c78-247f-4d97-85fa-2d5cefe6171b,1961-10-14,webbjames@example.org,2024-02-07 17:15:00.475905,b4cfafa8-6c98-473d-a7fe-1b4b9bf1f1d1,Fruits,Grapes,2.0,5,10.0
+David Chavez,5af95c78-247f-4d97-85fa-2d5cefe6171b,1961-10-14,webbjames@example.org,2024-02-07 17:15:00.475905,b4cfafa8-6c98-473d-a7fe-1b4b9bf1f1d1,Grains,Pasta,2.0,5,10.0
+David Chavez,5af95c78-247f-4d97-85fa-2d5cefe6171b,1961-10-14,webbjames@example.org,2024-02-17 18:17:53.268056,c2953f51-7f67-4e1a-ad9d-1f4217b18e6e,Dairy,Cheese,3.0,1,3.0
+David Chavez,5af95c78-247f-4d97-85fa-2d5cefe6171b,1961-10-14,webbjames@example.org,2024-02-17 18:17:53.268056,c2953f51-7f67-4e1a-ad9d-1f4217b18e6e,Grains,Quinoa,3.0,3,9.0
+David Chavez,5af95c78-247f-4d97-85fa-2d5cefe6171b,1961-10-14,webbjames@example.org,2024-02-17 18:17:53.268056,c2953f51-7f67-4e1a-ad9d-1f4217b18e6e,Meat,Shrimp,10.0,1,10.0
+David Chavez,5af95c78-247f-4d97-85fa-2d5cefe6171b,1961-10-14,webbjames@example.org,2024-02-17 18:17:53.268056,c2953f51-7f67-4e1a-ad9d-1f4217b18e6e,Grains,Couscous,2.0,2,4.0
+Kimberly Sullivan,1eeed219-0588-491d-bbe8-6a8ea1cf0d1d,1939-06-22,smithraymond@example.net,2024-02-16 20:08:16.041805,40aaec7a-bf1d-4687-9a1e-c04271d04b0f,Dairy,Cheese,3.0,3,9.0
+Kimberly Sullivan,1eeed219-0588-491d-bbe8-6a8ea1cf0d1d,1939-06-22,smithraymond@example.net,2024-02-08 21:26:51.427351,e8a56f31-ac2c-40d0-8156-48ffdf0d6301,Meat,Shrimp,10.0,5,50.0
+Kimberly Sullivan,1eeed219-0588-491d-bbe8-6a8ea1cf0d1d,1939-06-22,smithraymond@example.net,2024-02-08 21:26:51.427351,e8a56f31-ac2c-40d0-8156-48ffdf0d6301,Dairy,Cottage Cheese,2.0,8,16.0
+Kimberly Sullivan,1eeed219-0588-491d-bbe8-6a8ea1cf0d1d,1939-06-22,smithraymond@example.net,2024-02-08 21:26:51.427351,e8a56f31-ac2c-40d0-8156-48ffdf0d6301,Vegetables,Bell Pepper,1.3,9,11.700000000000001
+Kimberly Sullivan,1eeed219-0588-491d-bbe8-6a8ea1cf0d1d,1939-06-22,smithraymond@example.net,2024-02-08 21:26:51.427351,e8a56f31-ac2c-40d0-8156-48ffdf0d6301,Vegetables,Spinach,1.5,4,6.0
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-10 06:06:48.412643,22696227-8513-491e-8862-2a674a294067,Vegetables,Broccoli,1.0,5,5.0
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-10 06:06:48.412643,22696227-8513-491e-8862-2a674a294067,Dairy,Cream,2.5,9,22.5
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-10 06:06:48.412643,22696227-8513-491e-8862-2a674a294067,Meat,Beef,5.0,5,25.0
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-10 06:06:48.412643,22696227-8513-491e-8862-2a674a294067,Meat,Crab,12.0,10,120.0
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-10 06:06:48.412643,22696227-8513-491e-8862-2a674a294067,Dairy,Yogurt,1.5,8,12.0
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-13 19:19:41.494441,1af55c26-8808-4ebc-b5d4-cd35a08c3a00,Dairy,Cream,2.5,6,15.0
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-13 19:19:41.494441,1af55c26-8808-4ebc-b5d4-cd35a08c3a00,Grains,Millet,2.1,7,14.700000000000001
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-13 19:19:41.494441,1af55c26-8808-4ebc-b5d4-cd35a08c3a00,Dairy,Cream,2.5,4,10.0
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-13 19:19:41.494441,1af55c26-8808-4ebc-b5d4-cd35a08c3a00,Vegetables,Garlic,1.1,7,7.700000000000001
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-13 19:19:41.494441,1af55c26-8808-4ebc-b5d4-cd35a08c3a00,Vegetables,Spinach,1.5,1,1.5
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-10 03:57:28.272500,bdce29ef-6746-40eb-8b27-9c29a274c0d7,Dairy,Sour Cream,2.2,7,15.400000000000002
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-10 03:57:28.272500,bdce29ef-6746-40eb-8b27-9c29a274c0d7,Vegetables,Bell Pepper,1.3,1,1.3
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-10 03:57:28.272500,bdce29ef-6746-40eb-8b27-9c29a274c0d7,Vegetables,Onion,0.9,10,9.0
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-18 08:51:38.444591,713eceb1-4ad1-4b4c-8753-4952c9c5fef1,Fruits,Mango,1.9,2,3.8
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-18 08:51:38.444591,713eceb1-4ad1-4b4c-8753-4952c9c5fef1,Grains,Bulgur,2.3,1,2.3
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-18 08:51:38.444591,713eceb1-4ad1-4b4c-8753-4952c9c5fef1,Vegetables,Spinach,1.5,3,4.5
+Bradley Jones,57030ede-889c-4ae2-8e3c-0f2d4332559d,1921-11-08,pamelagill@example.org,2024-02-09 07:04:33.282892,1f9078d5-2835-4cdb-a347-b24fa0f9c074,Dairy,Eggs,1.8,6,10.8
+Jane Garza,4c88b9d8-ab12-4b53-8f42-cebe23b870f3,1949-03-20,nnewton@example.com,2024-02-11 21:45:00.992685,a6ed0ac0-7e22-41b7-9178-30328066b49b,Fruits,Watermelon,2.5,9,22.5
+Jane Garza,4c88b9d8-ab12-4b53-8f42-cebe23b870f3,1949-03-20,nnewton@example.com,2024-02-11 21:45:00.992685,a6ed0ac0-7e22-41b7-9178-30328066b49b,Dairy,Cream,2.5,8,20.0
+Jane Garza,4c88b9d8-ab12-4b53-8f42-cebe23b870f3,1949-03-20,nnewton@example.com,2024-02-11 21:45:00.992685,a6ed0ac0-7e22-41b7-9178-30328066b49b,Grains,Rice,1.0,10,10.0
+Jane Garza,4c88b9d8-ab12-4b53-8f42-cebe23b870f3,1949-03-20,nnewton@example.com,2024-02-11 21:45:00.992685,a6ed0ac0-7e22-41b7-9178-30328066b49b,Fruits,Grapes,2.0,5,10.0
+Jane Garza,4c88b9d8-ab12-4b53-8f42-cebe23b870f3,1949-03-20,nnewton@example.com,2024-02-22 09:10:12.191797,bec60ffe-248f-4a25-8cd8-ef2471a8c9c6,Fruits,Pineapple,1.4,2,2.8
+Jane Garza,4c88b9d8-ab12-4b53-8f42-cebe23b870f3,1949-03-20,nnewton@example.com,2024-02-22 09:10:12.191797,bec60ffe-248f-4a25-8cd8-ef2471a8c9c6,Fruits,Mango,1.9,3,5.699999999999999
+Jane Garza,4c88b9d8-ab12-4b53-8f42-cebe23b870f3,1949-03-20,nnewton@example.com,2024-02-12 01:19:08.092195,068a3c38-3739-476a-9f03-2cdce32866d3,Fruits,Apple,1.5,6,9.0
+Jane Garza,4c88b9d8-ab12-4b53-8f42-cebe23b870f3,1949-03-20,nnewton@example.com,2024-02-12 01:19:08.092195,068a3c38-3739-476a-9f03-2cdce32866d3,Fruits,Strawberry,1.8,6,10.8
+Jane Garza,4c88b9d8-ab12-4b53-8f42-cebe23b870f3,1949-03-20,nnewton@example.com,2024-02-12 01:19:08.092195,068a3c38-3739-476a-9f03-2cdce32866d3,Meat,Duck,8.0,3,24.0
+Jane Garza,4c88b9d8-ab12-4b53-8f42-cebe23b870f3,1949-03-20,nnewton@example.com,2024-02-08 22:17:35.674280,02969326-fe2d-4d1d-a377-b008641659c0,Grains,Couscous,2.0,10,20.0
+Jane Garza,4c88b9d8-ab12-4b53-8f42-cebe23b870f3,1949-03-20,nnewton@example.com,2024-02-08 22:17:35.674280,02969326-fe2d-4d1d-a377-b008641659c0,Vegetables,Lettuce,1.2,3,3.5999999999999996
+Jane Garza,4c88b9d8-ab12-4b53-8f42-cebe23b870f3,1949-03-20,nnewton@example.com,2024-02-19 21:05:44.908898,ddfae808-afd8-4432-9103-5083fa999f9b,Grains,Couscous,2.0,10,20.0
+Travis Middleton,0a8aa1e4-5c7c-4c62-81a4-f7a165264961,1921-08-14,keymorgan@example.net,2024-02-07 12:37:40.767161,c069c542-2403-4721-ba08-2921e695f8ba,Grains,Pasta,2.0,4,8.0
+Travis Middleton,0a8aa1e4-5c7c-4c62-81a4-f7a165264961,1921-08-14,keymorgan@example.net,2024-02-07 12:37:40.767161,c069c542-2403-4721-ba08-2921e695f8ba,Dairy,Eggs,1.8,8,14.4
+Travis Middleton,0a8aa1e4-5c7c-4c62-81a4-f7a165264961,1921-08-14,keymorgan@example.net,2024-02-07 12:37:40.767161,c069c542-2403-4721-ba08-2921e695f8ba,Meat,Beef,5.0,8,40.0
+Travis Middleton,0a8aa1e4-5c7c-4c62-81a4-f7a165264961,1921-08-14,keymorgan@example.net,2024-02-07 12:37:40.767161,c069c542-2403-4721-ba08-2921e695f8ba,Meat,Shrimp,10.0,3,30.0
+Travis Middleton,0a8aa1e4-5c7c-4c62-81a4-f7a165264961,1921-08-14,keymorgan@example.net,2024-02-13 18:43:20.525186,75fd3537-6f1b-4d07-9aff-71ae30f2c485,Dairy,Cream,2.5,10,25.0
+Janet Rivera,6f6ddf79-affe-4554-a5ae-f699a5e3a719,1925-04-25,alexandriaanderson@example.org,2024-02-10 21:47:54.084791,6d62e40c-638d-421a-bbc5-9e92ca1209ad,Meat,Salmon,9.0,5,45.0
+Janet Rivera,6f6ddf79-affe-4554-a5ae-f699a5e3a719,1925-04-25,alexandriaanderson@example.org,2024-02-10 21:47:54.084791,6d62e40c-638d-421a-bbc5-9e92ca1209ad,Vegetables,Spinach,1.5,8,12.0
+Janet Rivera,6f6ddf79-affe-4554-a5ae-f699a5e3a719,1925-04-25,alexandriaanderson@example.org,2024-02-10 21:47:54.084791,6d62e40c-638d-421a-bbc5-9e92ca1209ad,Fruits,Grapes,2.0,7,14.0
+Janet Rivera,6f6ddf79-affe-4554-a5ae-f699a5e3a719,1925-04-25,alexandriaanderson@example.org,2024-02-10 21:47:54.084791,6d62e40c-638d-421a-bbc5-9e92ca1209ad,Grains,Barley,2.5,10,25.0
+Janet Rivera,6f6ddf79-affe-4554-a5ae-f699a5e3a719,1925-04-25,alexandriaanderson@example.org,2024-02-19 00:00:40.077808,cbab5b51-385c-4fdc-bad3-116b63b8a897,Meat,Beef,5.0,7,35.0
+Janet Rivera,6f6ddf79-affe-4554-a5ae-f699a5e3a719,1925-04-25,alexandriaanderson@example.org,2024-02-19 00:00:40.077808,cbab5b51-385c-4fdc-bad3-116b63b8a897,Meat,Beef,5.0,10,50.0
+Janet Rivera,6f6ddf79-affe-4554-a5ae-f699a5e3a719,1925-04-25,alexandriaanderson@example.org,2024-02-19 00:00:40.077808,cbab5b51-385c-4fdc-bad3-116b63b8a897,Fruits,Peach,1.6,8,12.8
+Janet Rivera,6f6ddf79-affe-4554-a5ae-f699a5e3a719,1925-04-25,alexandriaanderson@example.org,2024-02-05 09:02:56.011189,b5c25d42-9626-48c4-b44a-f454f0a61c5e,Vegetables,Garlic,1.1,6,6.6000000000000005
+Janet Rivera,6f6ddf79-affe-4554-a5ae-f699a5e3a719,1925-04-25,alexandriaanderson@example.org,2024-02-05 09:02:56.011189,b5c25d42-9626-48c4-b44a-f454f0a61c5e,Vegetables,Tomato,0.8,10,8.0
+Janet Rivera,6f6ddf79-affe-4554-a5ae-f699a5e3a719,1925-04-25,alexandriaanderson@example.org,2024-02-05 09:02:56.011189,b5c25d42-9626-48c4-b44a-f454f0a61c5e,Meat,Pork,4.0,2,8.0
+James Young,5d158e44-2fcf-4b87-9efa-786415ac15c3,1914-10-03,jesseevans@example.org,2024-02-16 17:26:19.223255,c57c7998-48d0-42be-8061-c99b831a352a,Dairy,Milk,2.0,10,20.0
+James Young,5d158e44-2fcf-4b87-9efa-786415ac15c3,1914-10-03,jesseevans@example.org,2024-02-16 17:26:19.223255,c57c7998-48d0-42be-8061-c99b831a352a,Meat,Pork,4.0,2,8.0
+James Young,5d158e44-2fcf-4b87-9efa-786415ac15c3,1914-10-03,jesseevans@example.org,2024-02-16 17:26:19.223255,c57c7998-48d0-42be-8061-c99b831a352a,Meat,Turkey,4.5,7,31.5
+Heather Ellis,aa66b464-8420-48d9-b261-d0d2a1c2d9bf,2019-02-04,fcarpenter@example.com,2024-02-16 17:00:23.891929,0acfeba4-4410-40ae-9652-5ce03725bd0c,Vegetables,Onion,0.9,6,5.4
+Heather Ellis,aa66b464-8420-48d9-b261-d0d2a1c2d9bf,2019-02-04,fcarpenter@example.com,2024-02-16 17:00:23.891929,0acfeba4-4410-40ae-9652-5ce03725bd0c,Grains,Millet,2.1,5,10.5
+Heather Ellis,aa66b464-8420-48d9-b261-d0d2a1c2d9bf,2019-02-04,fcarpenter@example.com,2024-02-01 23:27:20.890777,4a30f7cd-00fd-4c23-998c-a3b429b10823,Meat,Salmon,9.0,5,45.0
+Heather Ellis,aa66b464-8420-48d9-b261-d0d2a1c2d9bf,2019-02-04,fcarpenter@example.com,2024-02-01 23:27:20.890777,4a30f7cd-00fd-4c23-998c-a3b429b10823,Meat,Chicken,3.0,8,24.0
+Brenda Buchanan,9bcfb1c4-f87e-4560-b8df-e76bae358290,1954-02-20,shawnmorgan@example.org,2024-02-14 12:39:41.670224,52ab793f-51ab-45e5-8b77-5e2415eb3a3d,Vegetables,Spinach,1.5,9,13.5
+Brenda Buchanan,9bcfb1c4-f87e-4560-b8df-e76bae358290,1954-02-20,shawnmorgan@example.org,2024-02-14 12:39:41.670224,52ab793f-51ab-45e5-8b77-5e2415eb3a3d,Meat,Chicken,3.0,7,21.0
+Stephanie Scott,5e6364c6-30ac-49dd-8b5a-afef85a1282a,1917-06-09,jacob34@example.net,2024-02-17 06:20:37.716639,dc2897c6-8453-4813-8fee-71444d236555,Grains,Bread,1.5,8,12.0
+Stephanie Scott,5e6364c6-30ac-49dd-8b5a-afef85a1282a,1917-06-09,jacob34@example.net,2024-02-17 06:20:37.716639,dc2897c6-8453-4813-8fee-71444d236555,Meat,Lamb,7.0,10,70.0
+Stephanie Scott,5e6364c6-30ac-49dd-8b5a-afef85a1282a,1917-06-09,jacob34@example.net,2024-02-17 06:20:37.716639,dc2897c6-8453-4813-8fee-71444d236555,Dairy,Cream,2.5,2,5.0
+John Wiggins,ef26a5b7-4e49-4f56-8b64-8acd3d6e2667,1972-03-04,murrayjenny@example.org,2024-02-21 11:04:13.443055,75e417dd-7e5b-437d-ba98-c1156980b561,Fruits,Peach,1.6,9,14.4
+John Wiggins,ef26a5b7-4e49-4f56-8b64-8acd3d6e2667,1972-03-04,murrayjenny@example.org,2024-02-21 11:04:13.443055,75e417dd-7e5b-437d-ba98-c1156980b561,Meat,Crab,12.0,4,48.0
+John Wiggins,ef26a5b7-4e49-4f56-8b64-8acd3d6e2667,1972-03-04,murrayjenny@example.org,2024-02-21 11:04:13.443055,75e417dd-7e5b-437d-ba98-c1156980b561,Fruits,Mango,1.9,5,9.5
+John Wiggins,ef26a5b7-4e49-4f56-8b64-8acd3d6e2667,1972-03-04,murrayjenny@example.org,2024-02-21 11:04:13.443055,75e417dd-7e5b-437d-ba98-c1156980b561,Dairy,Cheese,3.0,3,9.0
+John Wiggins,ef26a5b7-4e49-4f56-8b64-8acd3d6e2667,1972-03-04,murrayjenny@example.org,2024-02-10 19:38:53.543285,194665d3-3dbb-43af-94db-ad2215eae9d2,Fruits,Strawberry,1.8,8,14.4
+Brittany Henson,13bfa9fe-9cdd-4f6c-b0cd-c4a836a5be06,2003-01-13,lwilliams@example.org,2024-02-11 22:22:07.879515,476c4878-deff-4d7a-9728-525620ca35ab,Vegetables,Onion,0.9,3,2.7
+Emma Graham,9c2e5562-4916-4844-a64d-dd918e9b185e,1970-11-28,jenniferwaters@example.net,2024-02-14 11:45:34.493318,45c596d4-42d0-4ba3-a265-2c9e89421c6d,Meat,Shrimp,10.0,7,70.0
+Emma Graham,9c2e5562-4916-4844-a64d-dd918e9b185e,1970-11-28,jenniferwaters@example.net,2024-02-14 11:45:34.493318,45c596d4-42d0-4ba3-a265-2c9e89421c6d,Grains,Pasta,2.0,7,14.0
+Emma Graham,9c2e5562-4916-4844-a64d-dd918e9b185e,1970-11-28,jenniferwaters@example.net,2024-02-14 11:45:34.493318,45c596d4-42d0-4ba3-a265-2c9e89421c6d,Fruits,Mango,1.9,10,19.0
+Emma Graham,9c2e5562-4916-4844-a64d-dd918e9b185e,1970-11-28,jenniferwaters@example.net,2024-02-14 11:45:34.493318,45c596d4-42d0-4ba3-a265-2c9e89421c6d,Dairy,Eggs,1.8,1,1.8
+Emma Graham,9c2e5562-4916-4844-a64d-dd918e9b185e,1970-11-28,jenniferwaters@example.net,2024-02-06 04:06:23.878201,b63f83c6-c893-49e9-9d68-3a9e1e651ac1,Vegetables,Bell Pepper,1.3,8,10.4
+Emma Graham,9c2e5562-4916-4844-a64d-dd918e9b185e,1970-11-28,jenniferwaters@example.net,2024-02-06 04:06:23.878201,b63f83c6-c893-49e9-9d68-3a9e1e651ac1,Vegetables,Cucumber,0.7,2,1.4
+Emma Graham,9c2e5562-4916-4844-a64d-dd918e9b185e,1970-11-28,jenniferwaters@example.net,2024-02-06 04:06:23.878201,b63f83c6-c893-49e9-9d68-3a9e1e651ac1,Meat,Shrimp,10.0,6,60.0
+Emma Graham,9c2e5562-4916-4844-a64d-dd918e9b185e,1970-11-28,jenniferwaters@example.net,2024-02-03 04:57:16.666906,37d316a4-3faf-4217-aa27-241fbb9e5a02,Dairy,Eggs,1.8,4,7.2
+Emma Graham,9c2e5562-4916-4844-a64d-dd918e9b185e,1970-11-28,jenniferwaters@example.net,2024-02-07 08:21:39.237305,01a6009e-a8dc-4886-bf45-33febc6ff6ac,Dairy,Cheese,3.0,4,12.0
+Kaylee Trevino,45c190a8-a52b-40ce-a27b-585f1f2de275,1921-11-10,jerome84@example.org,2024-02-17 12:08:59.305231,84a5b1c3-1095-4497-bd79-8f0be6cd3595,Fruits,Watermelon,2.5,4,10.0
+Kaylee Trevino,45c190a8-a52b-40ce-a27b-585f1f2de275,1921-11-10,jerome84@example.org,2024-02-07 20:39:18.725855,a0e624f1-5f89-454d-bbcd-6aec53ca8c05,Grains,Quinoa,3.0,2,6.0
+Kaylee Trevino,45c190a8-a52b-40ce-a27b-585f1f2de275,1921-11-10,jerome84@example.org,2024-02-07 20:39:18.725855,a0e624f1-5f89-454d-bbcd-6aec53ca8c05,Grains,Quinoa,3.0,10,30.0
+Kaylee Trevino,45c190a8-a52b-40ce-a27b-585f1f2de275,1921-11-10,jerome84@example.org,2024-02-11 17:09:06.208814,cf4bb315-2325-4d81-abdf-b7279501e917,Vegetables,Cucumber,0.7,3,2.0999999999999996
+Kaylee Trevino,45c190a8-a52b-40ce-a27b-585f1f2de275,1921-11-10,jerome84@example.org,2024-02-11 17:09:06.208814,cf4bb315-2325-4d81-abdf-b7279501e917,Grains,Rice,1.0,5,5.0
+Kaylee Trevino,45c190a8-a52b-40ce-a27b-585f1f2de275,1921-11-10,jerome84@example.org,2024-02-01 08:17:54.715191,95decd6e-5df2-4073-93f0-4099813dd49a,Vegetables,Onion,0.9,5,4.5
+Kaylee Trevino,45c190a8-a52b-40ce-a27b-585f1f2de275,1921-11-10,jerome84@example.org,2024-02-01 08:17:54.715191,95decd6e-5df2-4073-93f0-4099813dd49a,Vegetables,Broccoli,1.0,1,1.0
+Kaylee Trevino,45c190a8-a52b-40ce-a27b-585f1f2de275,1921-11-10,jerome84@example.org,2024-02-15 03:54:01.832982,6544c97d-e078-4f97-a13c-121ccfdef303,Fruits,Watermelon,2.5,4,10.0
+Kaylee Trevino,45c190a8-a52b-40ce-a27b-585f1f2de275,1921-11-10,jerome84@example.org,2024-02-15 03:54:01.832982,6544c97d-e078-4f97-a13c-121ccfdef303,Grains,Barley,2.5,1,2.5
+Christopher Esparza,c80cb483-34dd-4624-83d9-b3b022b56be1,2014-04-19,shudson@example.org,2024-02-06 05:59:44.271728,c28d2ad5-3bd3-447d-90f0-c75d21d32e24,Fruits,Orange,1.2,7,8.4
+Christopher Esparza,c80cb483-34dd-4624-83d9-b3b022b56be1,2014-04-19,shudson@example.org,2024-02-06 05:59:44.271728,c28d2ad5-3bd3-447d-90f0-c75d21d32e24,Grains,Bread,1.5,2,3.0
+Christopher Esparza,c80cb483-34dd-4624-83d9-b3b022b56be1,2014-04-19,shudson@example.org,2024-02-06 05:59:44.271728,c28d2ad5-3bd3-447d-90f0-c75d21d32e24,Dairy,Cottage Cheese,2.0,6,12.0
+Christopher Esparza,c80cb483-34dd-4624-83d9-b3b022b56be1,2014-04-19,shudson@example.org,2024-02-09 13:55:50.422653,a1057256-21ee-402e-974d-9d499bc69882,Grains,Bread,1.5,8,12.0
+Christopher Esparza,c80cb483-34dd-4624-83d9-b3b022b56be1,2014-04-19,shudson@example.org,2024-02-09 13:55:50.422653,a1057256-21ee-402e-974d-9d499bc69882,Grains,Quinoa,3.0,10,30.0
+Christopher Esparza,c80cb483-34dd-4624-83d9-b3b022b56be1,2014-04-19,shudson@example.org,2024-02-09 13:55:50.422653,a1057256-21ee-402e-974d-9d499bc69882,Fruits,Kiwi,1.1,5,5.5
+Christopher Esparza,c80cb483-34dd-4624-83d9-b3b022b56be1,2014-04-19,shudson@example.org,2024-02-09 13:55:50.422653,a1057256-21ee-402e-974d-9d499bc69882,Dairy,Milk,2.0,1,2.0
+Christopher Esparza,c80cb483-34dd-4624-83d9-b3b022b56be1,2014-04-19,shudson@example.org,2024-02-09 13:55:50.422653,a1057256-21ee-402e-974d-9d499bc69882,Dairy,Sour Cream,2.2,7,15.400000000000002
+Dr. Luis Johnson MD,033c1469-4f06-4a18-b4a2-64447d3c279b,2019-05-07,donnasimpson@example.net,2024-02-11 17:29:50.283509,142a6c95-d908-4a42-b448-0761505e9c9b,Dairy,Cheese,3.0,2,6.0
+Dr. Luis Johnson MD,033c1469-4f06-4a18-b4a2-64447d3c279b,2019-05-07,donnasimpson@example.net,2024-02-11 17:29:50.283509,142a6c95-d908-4a42-b448-0761505e9c9b,Meat,Crab,12.0,3,36.0
+Dr. Luis Johnson MD,033c1469-4f06-4a18-b4a2-64447d3c279b,2019-05-07,donnasimpson@example.net,2024-02-11 17:29:50.283509,142a6c95-d908-4a42-b448-0761505e9c9b,Fruits,Orange,1.2,5,6.0
+Dr. Luis Johnson MD,033c1469-4f06-4a18-b4a2-64447d3c279b,2019-05-07,donnasimpson@example.net,2024-02-11 17:29:50.283509,142a6c95-d908-4a42-b448-0761505e9c9b,Grains,Farro,2.2,9,19.8
+Larry Warner,4aaeb212-c90d-4d29-9100-f186d25ab049,1952-09-12,clarkleslie@example.net,2024-02-22 10:55:13.030688,ab1e6794-70f2-497a-9ceb-201357d9af8d,Grains,Millet,2.1,5,10.5
+Larry Warner,4aaeb212-c90d-4d29-9100-f186d25ab049,1952-09-12,clarkleslie@example.net,2024-02-22 10:55:13.030688,ab1e6794-70f2-497a-9ceb-201357d9af8d,Dairy,Cream Cheese,3.5,10,35.0
+Larry Warner,4aaeb212-c90d-4d29-9100-f186d25ab049,1952-09-12,clarkleslie@example.net,2024-02-22 10:55:13.030688,ab1e6794-70f2-497a-9ceb-201357d9af8d,Dairy,Cheese,3.0,2,6.0
+Larry Warner,4aaeb212-c90d-4d29-9100-f186d25ab049,1952-09-12,clarkleslie@example.net,2024-02-22 10:55:13.030688,ab1e6794-70f2-497a-9ceb-201357d9af8d,Grains,Quinoa,3.0,7,21.0
+Larry Warner,4aaeb212-c90d-4d29-9100-f186d25ab049,1952-09-12,clarkleslie@example.net,2024-02-17 04:36:55.594233,581ba307-4296-4873-b9d5-b552a867a0f0,Vegetables,Spinach,1.5,6,9.0
+Larry Warner,4aaeb212-c90d-4d29-9100-f186d25ab049,1952-09-12,clarkleslie@example.net,2024-02-17 04:36:55.594233,581ba307-4296-4873-b9d5-b552a867a0f0,Dairy,Sour Cream,2.2,7,15.400000000000002
+Larry Warner,4aaeb212-c90d-4d29-9100-f186d25ab049,1952-09-12,clarkleslie@example.net,2024-02-17 04:36:55.594233,581ba307-4296-4873-b9d5-b552a867a0f0,Fruits,Watermelon,2.5,7,17.5
+Larry Warner,4aaeb212-c90d-4d29-9100-f186d25ab049,1952-09-12,clarkleslie@example.net,2024-02-17 04:36:55.594233,581ba307-4296-4873-b9d5-b552a867a0f0,Meat,Lamb,7.0,6,42.0
+Larry Warner,4aaeb212-c90d-4d29-9100-f186d25ab049,1952-09-12,clarkleslie@example.net,2024-02-15 23:35:16.727443,92d6ff73-5b3a-4595-8458-92c14e0e15d3,Dairy,Cheese,3.0,2,6.0
+Larry Warner,4aaeb212-c90d-4d29-9100-f186d25ab049,1952-09-12,clarkleslie@example.net,2024-02-15 23:35:16.727443,92d6ff73-5b3a-4595-8458-92c14e0e15d3,Fruits,Banana,0.75,7,5.25
+Morgan Hernandez,0fb2de1e-a0b9-46c2-bdb9-31ce05a0f421,1910-12-29,smithsonia@example.com,2024-02-02 11:37:49.335770,a9fa4ea6-f8db-4a4d-984d-3c020ff9d318,Vegetables,Onion,0.9,1,0.9
+Morgan Hernandez,0fb2de1e-a0b9-46c2-bdb9-31ce05a0f421,1910-12-29,smithsonia@example.com,2024-02-02 11:37:49.335770,a9fa4ea6-f8db-4a4d-984d-3c020ff9d318,Grains,Millet,2.1,9,18.900000000000002
+Morgan Hernandez,0fb2de1e-a0b9-46c2-bdb9-31ce05a0f421,1910-12-29,smithsonia@example.com,2024-02-02 11:37:49.335770,a9fa4ea6-f8db-4a4d-984d-3c020ff9d318,Meat,Chicken,3.0,7,21.0
+Steven Robinson,4fdc1351-5ba8-40dc-a45d-b6ca6f6a2196,1928-09-01,jessica66@example.org,2024-02-10 03:08:38.257950,cdfa4cc8-8805-4e31-88a0-edce4384860c,Fruits,Strawberry,1.8,10,18.0
+Steven Robinson,4fdc1351-5ba8-40dc-a45d-b6ca6f6a2196,1928-09-01,jessica66@example.org,2024-02-10 03:08:38.257950,cdfa4cc8-8805-4e31-88a0-edce4384860c,Meat,Turkey,4.5,2,9.0
+Steven Robinson,4fdc1351-5ba8-40dc-a45d-b6ca6f6a2196,1928-09-01,jessica66@example.org,2024-02-10 03:08:38.257950,cdfa4cc8-8805-4e31-88a0-edce4384860c,Grains,Millet,2.1,4,8.4
+Steven Robinson,4fdc1351-5ba8-40dc-a45d-b6ca6f6a2196,1928-09-01,jessica66@example.org,2024-02-10 03:08:38.257950,cdfa4cc8-8805-4e31-88a0-edce4384860c,Vegetables,Bell Pepper,1.3,4,5.2
+Steven Robinson,4fdc1351-5ba8-40dc-a45d-b6ca6f6a2196,1928-09-01,jessica66@example.org,2024-02-17 09:53:00.608184,c2537638-7670-4835-b476-998dafc8128a,Meat,Shrimp,10.0,6,60.0
+Steven Robinson,4fdc1351-5ba8-40dc-a45d-b6ca6f6a2196,1928-09-01,jessica66@example.org,2024-02-01 22:27:19.819193,f436498e-68af-42b8-9f62-6a97ebe7ef91,Meat,Crab,12.0,4,48.0
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-06 12:08:29.525421,e575ae93-ce74-4e8a-b4e1-680b05a02c72,Grains,Farro,2.2,9,19.8
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-06 12:08:29.525421,e575ae93-ce74-4e8a-b4e1-680b05a02c72,Fruits,Peach,1.6,5,8.0
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-06 12:08:29.525421,e575ae93-ce74-4e8a-b4e1-680b05a02c72,Fruits,Orange,1.2,5,6.0
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-06 12:08:29.525421,e575ae93-ce74-4e8a-b4e1-680b05a02c72,Meat,Turkey,4.5,6,27.0
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-06 12:08:29.525421,e575ae93-ce74-4e8a-b4e1-680b05a02c72,Fruits,Orange,1.2,3,3.5999999999999996
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-04 18:24:16.106134,8fb87c76-af04-4a8d-969d-b137c9a57cd1,Dairy,Cheese,3.0,3,9.0
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-04 18:24:16.106134,8fb87c76-af04-4a8d-969d-b137c9a57cd1,Fruits,Banana,0.75,9,6.75
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-04 18:24:16.106134,8fb87c76-af04-4a8d-969d-b137c9a57cd1,Vegetables,Spinach,1.5,7,10.5
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-04 18:24:16.106134,8fb87c76-af04-4a8d-969d-b137c9a57cd1,Dairy,Cream,2.5,3,7.5
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-04 18:24:16.106134,8fb87c76-af04-4a8d-969d-b137c9a57cd1,Meat,Lamb,7.0,6,42.0
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-04 18:07:15.957811,dd5aacc7-ed7a-4edf-ad5b-7d501417d4f9,Grains,Bread,1.5,1,1.5
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-04 18:07:15.957811,dd5aacc7-ed7a-4edf-ad5b-7d501417d4f9,Vegetables,Lettuce,1.2,10,12.0
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-04 18:07:15.957811,dd5aacc7-ed7a-4edf-ad5b-7d501417d4f9,Fruits,Banana,0.75,5,3.75
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-04 18:07:15.957811,dd5aacc7-ed7a-4edf-ad5b-7d501417d4f9,Dairy,Sour Cream,2.2,8,17.6
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-04 18:07:15.957811,dd5aacc7-ed7a-4edf-ad5b-7d501417d4f9,Grains,Bulgur,2.3,7,16.099999999999998
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-14 08:07:23.494076,b5c99b49-751f-4e54-a0e7-74869ed9c124,Vegetables,Onion,0.9,2,1.8
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-14 08:07:23.494076,b5c99b49-751f-4e54-a0e7-74869ed9c124,Meat,Duck,8.0,2,16.0
+Aaron Taylor,d70da545-8391-47a6-a977-4b71de6d2d7e,1993-02-08,christopheryoung@example.org,2024-02-14 08:07:23.494076,b5c99b49-751f-4e54-a0e7-74869ed9c124,Meat,Crab,12.0,8,96.0
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-04 08:44:52.758554,298b7e5d-5b16-44ad-81e7-74de3c740119,Fruits,Grapes,2.0,7,14.0
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-04 08:44:52.758554,298b7e5d-5b16-44ad-81e7-74de3c740119,Grains,Rice,1.0,1,1.0
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-04 08:44:52.758554,298b7e5d-5b16-44ad-81e7-74de3c740119,Vegetables,Potato,0.6,4,2.4
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-17 09:48:36.154023,cda6a326-4514-47d6-966f-f3ec679b29e8,Meat,Lamb,7.0,6,42.0
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-17 09:48:36.154023,cda6a326-4514-47d6-966f-f3ec679b29e8,Fruits,Apple,1.5,8,12.0
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-11 23:36:00.680841,87c47eb8-4f8e-4e01-83c8-e1046480fdc0,Vegetables,Lettuce,1.2,7,8.4
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-11 23:36:00.680841,87c47eb8-4f8e-4e01-83c8-e1046480fdc0,Grains,Quinoa,3.0,9,27.0
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-11 23:36:00.680841,87c47eb8-4f8e-4e01-83c8-e1046480fdc0,Grains,Barley,2.5,2,5.0
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-11 23:36:00.680841,87c47eb8-4f8e-4e01-83c8-e1046480fdc0,Dairy,Milk,2.0,7,14.0
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-21 02:10:43.575329,08f1100b-fa32-42c4-b80a-fabf8cea309b,Dairy,Cheese,3.0,6,18.0
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-18 05:50:31.179288,ef208346-432f-4308-8d56-206d920c3de9,Dairy,Ice Cream,4.0,7,28.0
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-18 05:50:31.179288,ef208346-432f-4308-8d56-206d920c3de9,Dairy,Eggs,1.8,2,3.6
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-18 05:50:31.179288,ef208346-432f-4308-8d56-206d920c3de9,Dairy,Milk,2.0,6,12.0
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-18 05:50:31.179288,ef208346-432f-4308-8d56-206d920c3de9,Vegetables,Garlic,1.1,8,8.8
+Lance King,606375b8-bb93-4826-bcee-9d29ce4f1ca0,1911-04-23,crawfordmichael@example.net,2024-02-18 05:50:31.179288,ef208346-432f-4308-8d56-206d920c3de9,Meat,Chicken,3.0,7,21.0
+Joy Griffith,0d18533e-7efa-4faf-98ba-0bf3675e0c52,1910-07-18,kingerin@example.net,2024-02-18 07:27:03.871612,c317c3d4-afa4-4554-beb4-6b244a2edd41,Dairy,Ice Cream,4.0,7,28.0
+Joy Griffith,0d18533e-7efa-4faf-98ba-0bf3675e0c52,1910-07-18,kingerin@example.net,2024-02-18 07:27:03.871612,c317c3d4-afa4-4554-beb4-6b244a2edd41,Grains,Bread,1.5,7,10.5
+Joseph Peterson,402988fd-f8cc-4f3b-959b-148ffa7bff5f,1932-05-20,linda39@example.net,2024-02-17 01:33:22.391867,299cf16b-5a75-43c0-a02a-35e9ae6b4c8e,Vegetables,Cucumber,0.7,3,2.0999999999999996
+Joseph Peterson,402988fd-f8cc-4f3b-959b-148ffa7bff5f,1932-05-20,linda39@example.net,2024-02-17 01:33:22.391867,299cf16b-5a75-43c0-a02a-35e9ae6b4c8e,Fruits,Kiwi,1.1,2,2.2
+Joseph Peterson,402988fd-f8cc-4f3b-959b-148ffa7bff5f,1932-05-20,linda39@example.net,2024-02-17 01:33:22.391867,299cf16b-5a75-43c0-a02a-35e9ae6b4c8e,Grains,Millet,2.1,4,8.4
+Joseph Peterson,402988fd-f8cc-4f3b-959b-148ffa7bff5f,1932-05-20,linda39@example.net,2024-02-21 10:38:57.324857,d8a1a546-54a6-487c-a72e-aa36e642965c,Meat,Pork,4.0,4,16.0
+Joseph Peterson,402988fd-f8cc-4f3b-959b-148ffa7bff5f,1932-05-20,linda39@example.net,2024-02-21 10:38:57.324857,d8a1a546-54a6-487c-a72e-aa36e642965c,Fruits,Orange,1.2,5,6.0
+Joseph Peterson,402988fd-f8cc-4f3b-959b-148ffa7bff5f,1932-05-20,linda39@example.net,2024-02-21 10:38:57.324857,d8a1a546-54a6-487c-a72e-aa36e642965c,Vegetables,Lettuce,1.2,10,12.0
+Joseph Peterson,402988fd-f8cc-4f3b-959b-148ffa7bff5f,1932-05-20,linda39@example.net,2024-02-17 16:10:44.796910,0d1f0a7f-d0fc-4922-95be-263b0253dc8c,Fruits,Orange,1.2,8,9.6
+Joseph Peterson,402988fd-f8cc-4f3b-959b-148ffa7bff5f,1932-05-20,linda39@example.net,2024-02-17 16:10:44.796910,0d1f0a7f-d0fc-4922-95be-263b0253dc8c,Dairy,Ice Cream,4.0,10,40.0
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-13 16:26:53.085324,edec31ef-5762-4626-a037-9089711fa10a,Grains,Barley,2.5,6,15.0
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-13 16:26:53.085324,edec31ef-5762-4626-a037-9089711fa10a,Vegetables,Bell Pepper,1.3,2,2.6
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-13 16:26:53.085324,edec31ef-5762-4626-a037-9089711fa10a,Dairy,Cottage Cheese,2.0,5,10.0
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-13 16:26:53.085324,edec31ef-5762-4626-a037-9089711fa10a,Meat,Crab,12.0,1,12.0
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-13 16:26:53.085324,edec31ef-5762-4626-a037-9089711fa10a,Meat,Shrimp,10.0,2,20.0
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-01 04:59:20.457126,f25a3c68-e8ef-49e9-bafc-50cdb8bc6621,Dairy,Cottage Cheese,2.0,1,2.0
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-01 04:59:20.457126,f25a3c68-e8ef-49e9-bafc-50cdb8bc6621,Fruits,Watermelon,2.5,5,12.5
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-01 04:59:20.457126,f25a3c68-e8ef-49e9-bafc-50cdb8bc6621,Fruits,Banana,0.75,10,7.5
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-15 19:38:19.435309,bf4ddeaa-41f2-405b-8753-7df5a9afa87a,Grains,Couscous,2.0,8,16.0
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-15 19:38:19.435309,bf4ddeaa-41f2-405b-8753-7df5a9afa87a,Grains,Millet,2.1,1,2.1
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-15 19:38:19.435309,bf4ddeaa-41f2-405b-8753-7df5a9afa87a,Dairy,Ice Cream,4.0,4,16.0
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-15 19:38:19.435309,bf4ddeaa-41f2-405b-8753-7df5a9afa87a,Meat,Crab,12.0,8,96.0
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-15 19:38:19.435309,bf4ddeaa-41f2-405b-8753-7df5a9afa87a,Grains,Pasta,2.0,1,2.0
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-14 15:47:53.759247,6c835975-efa2-4e12-8c83-384811fba56e,Fruits,Watermelon,2.5,2,5.0
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-14 15:47:53.759247,6c835975-efa2-4e12-8c83-384811fba56e,Grains,Pasta,2.0,1,2.0
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-14 15:47:53.759247,6c835975-efa2-4e12-8c83-384811fba56e,Vegetables,Bell Pepper,1.3,8,10.4
+Tiffany Cox,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,1998-12-12,aarcher@example.org,2024-02-14 15:47:53.759247,6c835975-efa2-4e12-8c83-384811fba56e,Grains,Millet,2.1,10,21.0
+Ronald Moreno,284b7bcd-a3af-41d0-a8ab-29f110339310,1975-05-22,rfischer@example.com,2024-02-07 08:34:41.533620,d1db32f8-fda8-44ea-874d-d25c6dbf859c,Meat,Lamb,7.0,7,49.0
+Ronald Moreno,284b7bcd-a3af-41d0-a8ab-29f110339310,1975-05-22,rfischer@example.com,2024-02-07 08:34:41.533620,d1db32f8-fda8-44ea-874d-d25c6dbf859c,Dairy,Cream,2.5,10,25.0
+Ronald Moreno,284b7bcd-a3af-41d0-a8ab-29f110339310,1975-05-22,rfischer@example.com,2024-02-07 08:34:41.533620,d1db32f8-fda8-44ea-874d-d25c6dbf859c,Fruits,Watermelon,2.5,2,5.0
+Ronald Moreno,284b7bcd-a3af-41d0-a8ab-29f110339310,1975-05-22,rfischer@example.com,2024-02-17 00:23:46.924955,86fadb0e-89b1-40d4-8218-ca25f23db306,Fruits,Kiwi,1.1,7,7.700000000000001
+Ronald Moreno,284b7bcd-a3af-41d0-a8ab-29f110339310,1975-05-22,rfischer@example.com,2024-02-17 00:23:46.924955,86fadb0e-89b1-40d4-8218-ca25f23db306,Meat,Lamb,7.0,10,70.0
+Ronald Moreno,284b7bcd-a3af-41d0-a8ab-29f110339310,1975-05-22,rfischer@example.com,2024-02-17 00:23:46.924955,86fadb0e-89b1-40d4-8218-ca25f23db306,Vegetables,Cucumber,0.7,2,1.4
+Wanda Lee,2446ecee-caa0-4679-ae83-a7b2c857d8c3,2006-02-18,kristenmiles@example.net,2024-02-09 13:40:59.771576,8fc4edd3-094f-4d5a-b313-c0b076d142d0,Meat,Lamb,7.0,7,49.0
+Wanda Lee,2446ecee-caa0-4679-ae83-a7b2c857d8c3,2006-02-18,kristenmiles@example.net,2024-02-09 13:40:59.771576,8fc4edd3-094f-4d5a-b313-c0b076d142d0,Vegetables,Garlic,1.1,2,2.2
+Wanda Lee,2446ecee-caa0-4679-ae83-a7b2c857d8c3,2006-02-18,kristenmiles@example.net,2024-02-21 08:32:37.254442,cddb2316-cc68-4d3f-9d37-da5ca2fc7fe3,Grains,Couscous,2.0,6,12.0
+Wanda Lee,2446ecee-caa0-4679-ae83-a7b2c857d8c3,2006-02-18,kristenmiles@example.net,2024-02-21 08:32:37.254442,cddb2316-cc68-4d3f-9d37-da5ca2fc7fe3,Vegetables,Onion,0.9,2,1.8
+Wanda Lee,2446ecee-caa0-4679-ae83-a7b2c857d8c3,2006-02-18,kristenmiles@example.net,2024-02-21 08:32:37.254442,cddb2316-cc68-4d3f-9d37-da5ca2fc7fe3,Dairy,Cream Cheese,3.5,6,21.0
+Wanda Lee,2446ecee-caa0-4679-ae83-a7b2c857d8c3,2006-02-18,kristenmiles@example.net,2024-02-17 23:03:16.423859,8772c347-5cba-4be3-8404-64c0e65a3ae4,Meat,Lamb,7.0,3,21.0
+Wanda Lee,2446ecee-caa0-4679-ae83-a7b2c857d8c3,2006-02-18,kristenmiles@example.net,2024-02-22 21:33:13.549369,a1832fdb-31cb-4e8e-ae25-62ca28948b4c,Meat,Salmon,9.0,4,36.0
+Wanda Lee,2446ecee-caa0-4679-ae83-a7b2c857d8c3,2006-02-18,kristenmiles@example.net,2024-02-22 21:33:13.549369,a1832fdb-31cb-4e8e-ae25-62ca28948b4c,Vegetables,Lettuce,1.2,3,3.5999999999999996
+Wanda Lee,2446ecee-caa0-4679-ae83-a7b2c857d8c3,2006-02-18,kristenmiles@example.net,2024-02-08 21:47:46.547190,bb1d8677-04e6-448a-bf3a-b7dcb3390a6e,Meat,Chicken,3.0,9,27.0
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-20 06:29:10.202878,b47a5dce-cf70-4452-8e8c-037ee51c0cdb,Fruits,Watermelon,2.5,10,25.0
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-20 06:29:10.202878,b47a5dce-cf70-4452-8e8c-037ee51c0cdb,Vegetables,Garlic,1.1,7,7.700000000000001
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-20 06:29:10.202878,b47a5dce-cf70-4452-8e8c-037ee51c0cdb,Vegetables,Lettuce,1.2,3,3.5999999999999996
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-20 06:29:10.202878,b47a5dce-cf70-4452-8e8c-037ee51c0cdb,Grains,Pasta,2.0,8,16.0
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-20 06:29:10.202878,b47a5dce-cf70-4452-8e8c-037ee51c0cdb,Fruits,Pineapple,1.4,6,8.399999999999999
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-03 05:46:08.228476,ec6e61bd-70c4-45a9-aa1b-c11230331476,Dairy,Ice Cream,4.0,5,20.0
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-03 05:46:08.228476,ec6e61bd-70c4-45a9-aa1b-c11230331476,Dairy,Butter,2.5,9,22.5
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-02 10:55:34.089957,f0bd7405-650d-4400-a27e-e80d6d3f4b37,Meat,Salmon,9.0,4,36.0
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-02 10:55:34.089957,f0bd7405-650d-4400-a27e-e80d6d3f4b37,Meat,Crab,12.0,8,96.0
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-07 01:33:31.124613,c602bd20-c1fa-424e-a1bc-cfb26fed6cc5,Meat,Duck,8.0,9,72.0
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-07 01:33:31.124613,c602bd20-c1fa-424e-a1bc-cfb26fed6cc5,Grains,Couscous,2.0,3,6.0
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-07 01:33:31.124613,c602bd20-c1fa-424e-a1bc-cfb26fed6cc5,Vegetables,Garlic,1.1,3,3.3000000000000003
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-07 01:33:31.124613,c602bd20-c1fa-424e-a1bc-cfb26fed6cc5,Meat,Beef,5.0,8,40.0
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-08 22:42:04.029281,07b6e28f-4e98-4e25-9733-7a7c53e83663,Grains,Bread,1.5,9,13.5
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-08 22:42:04.029281,07b6e28f-4e98-4e25-9733-7a7c53e83663,Fruits,Strawberry,1.8,2,3.6
+Laura Allen,ed2ee36f-c211-4eda-b1e7-ea9b2f6570d7,1956-11-11,tyoung@example.com,2024-02-08 22:42:04.029281,07b6e28f-4e98-4e25-9733-7a7c53e83663,Vegetables,Potato,0.6,8,4.8
+Phillip Harris MD,a02a1b21-a2a7-40fc-8683-ad336f844392,1986-03-22,aguilarmichael@example.net,2024-02-03 19:53:59.963172,d26eeeba-53ff-4644-8741-ee56b5e2834d,Dairy,Cheese,3.0,4,12.0
+Phillip Harris MD,a02a1b21-a2a7-40fc-8683-ad336f844392,1986-03-22,aguilarmichael@example.net,2024-02-03 19:53:59.963172,d26eeeba-53ff-4644-8741-ee56b5e2834d,Dairy,Cream,2.5,1,2.5
+Phillip Harris MD,a02a1b21-a2a7-40fc-8683-ad336f844392,1986-03-22,aguilarmichael@example.net,2024-02-01 13:00:42.051027,22a5a421-858d-47da-abc1-6f6979460978,Fruits,Pineapple,1.4,9,12.6
+Phillip Harris MD,a02a1b21-a2a7-40fc-8683-ad336f844392,1986-03-22,aguilarmichael@example.net,2024-02-01 13:00:42.051027,22a5a421-858d-47da-abc1-6f6979460978,Meat,Fish,6.0,7,42.0
+Phillip Harris MD,a02a1b21-a2a7-40fc-8683-ad336f844392,1986-03-22,aguilarmichael@example.net,2024-02-01 13:00:42.051027,22a5a421-858d-47da-abc1-6f6979460978,Fruits,Watermelon,2.5,4,10.0
+Phillip Harris MD,a02a1b21-a2a7-40fc-8683-ad336f844392,1986-03-22,aguilarmichael@example.net,2024-02-01 13:00:42.051027,22a5a421-858d-47da-abc1-6f6979460978,Fruits,Watermelon,2.5,2,5.0
+Phillip Harris MD,a02a1b21-a2a7-40fc-8683-ad336f844392,1986-03-22,aguilarmichael@example.net,2024-02-01 22:15:59.785418,5c6be596-58f1-4c91-9d6d-47e490e0172f,Vegetables,Lettuce,1.2,1,1.2
+Phillip Harris MD,a02a1b21-a2a7-40fc-8683-ad336f844392,1986-03-22,aguilarmichael@example.net,2024-02-01 22:15:59.785418,5c6be596-58f1-4c91-9d6d-47e490e0172f,Meat,Salmon,9.0,3,27.0
+Phillip Harris MD,a02a1b21-a2a7-40fc-8683-ad336f844392,1986-03-22,aguilarmichael@example.net,2024-02-01 22:15:59.785418,5c6be596-58f1-4c91-9d6d-47e490e0172f,Dairy,Cottage Cheese,2.0,10,20.0
+Phillip Harris MD,a02a1b21-a2a7-40fc-8683-ad336f844392,1986-03-22,aguilarmichael@example.net,2024-02-01 02:24:20.904113,abe0a177-1c5e-4698-b7a0-2afd30d6863f,Fruits,Apple,1.5,5,7.5
+Phillip Harris MD,a02a1b21-a2a7-40fc-8683-ad336f844392,1986-03-22,aguilarmichael@example.net,2024-02-13 01:27:58.551954,d763b159-ed9a-489a-9085-2f4f0b09ec41,Vegetables,Onion,0.9,10,9.0
+Phillip Harris MD,a02a1b21-a2a7-40fc-8683-ad336f844392,1986-03-22,aguilarmichael@example.net,2024-02-13 01:27:58.551954,d763b159-ed9a-489a-9085-2f4f0b09ec41,Grains,Couscous,2.0,2,4.0
+Theresa Edwards,fe292238-fbfb-4602-a011-bc8ae7bf9a96,1996-11-07,richard29@example.org,2024-02-10 00:25:24.096104,29b49664-0f52-461d-82f1-240d4e5c6dd2,Meat,Chicken,3.0,1,3.0
+Theresa Edwards,fe292238-fbfb-4602-a011-bc8ae7bf9a96,1996-11-07,richard29@example.org,2024-02-10 00:25:24.096104,29b49664-0f52-461d-82f1-240d4e5c6dd2,Vegetables,Spinach,1.5,10,15.0
+Theresa Edwards,fe292238-fbfb-4602-a011-bc8ae7bf9a96,1996-11-07,richard29@example.org,2024-02-03 19:08:01.616129,b48f653e-7b1b-4b6b-a91e-70af224af354,Fruits,Banana,0.75,8,6.0
+Theresa Edwards,fe292238-fbfb-4602-a011-bc8ae7bf9a96,1996-11-07,richard29@example.org,2024-02-03 19:08:01.616129,b48f653e-7b1b-4b6b-a91e-70af224af354,Grains,Millet,2.1,1,2.1
+Theresa Edwards,fe292238-fbfb-4602-a011-bc8ae7bf9a96,1996-11-07,richard29@example.org,2024-02-03 19:08:01.616129,b48f653e-7b1b-4b6b-a91e-70af224af354,Grains,Farro,2.2,4,8.8
+Theresa Edwards,fe292238-fbfb-4602-a011-bc8ae7bf9a96,1996-11-07,richard29@example.org,2024-02-03 19:08:01.616129,b48f653e-7b1b-4b6b-a91e-70af224af354,Vegetables,Potato,0.6,7,4.2
+Theresa Edwards,fe292238-fbfb-4602-a011-bc8ae7bf9a96,1996-11-07,richard29@example.org,2024-02-15 07:41:24.803197,bad4c288-0bf5-4ed8-b93c-2989c399fd7f,Grains,Barley,2.5,4,10.0
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-04 21:23:34.464577,42ce91c0-ccd9-42af-b39c-5a7543fd46ff,Vegetables,Broccoli,1.0,9,9.0
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-04 21:23:34.464577,42ce91c0-ccd9-42af-b39c-5a7543fd46ff,Meat,Chicken,3.0,9,27.0
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-04 21:23:34.464577,42ce91c0-ccd9-42af-b39c-5a7543fd46ff,Grains,Millet,2.1,9,18.900000000000002
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-04 21:23:34.464577,42ce91c0-ccd9-42af-b39c-5a7543fd46ff,Grains,Rice,1.0,7,7.0
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-08 07:35:18.839147,425de95f-c846-4f90-80fe-6898b56b9357,Fruits,Pineapple,1.4,6,8.399999999999999
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-08 07:35:18.839147,425de95f-c846-4f90-80fe-6898b56b9357,Meat,Beef,5.0,6,30.0
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-08 07:35:18.839147,425de95f-c846-4f90-80fe-6898b56b9357,Fruits,Watermelon,2.5,4,10.0
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-08 07:35:18.839147,425de95f-c846-4f90-80fe-6898b56b9357,Fruits,Peach,1.6,6,9.600000000000001
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-12 13:03:06.358029,27bb1580-e8f5-4c5d-bfa0-841974dbcc40,Fruits,Watermelon,2.5,9,22.5
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-12 13:03:06.358029,27bb1580-e8f5-4c5d-bfa0-841974dbcc40,Meat,Pork,4.0,8,32.0
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-17 21:08:47.474560,09e1c3b0-271f-4772-8d7f-7ba572e6316e,Vegetables,Lettuce,1.2,2,2.4
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-17 21:08:47.474560,09e1c3b0-271f-4772-8d7f-7ba572e6316e,Dairy,Milk,2.0,5,10.0
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-17 21:08:47.474560,09e1c3b0-271f-4772-8d7f-7ba572e6316e,Vegetables,Carrot,0.5,4,2.0
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-17 21:08:47.474560,09e1c3b0-271f-4772-8d7f-7ba572e6316e,Fruits,Watermelon,2.5,5,12.5
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-15 02:41:03.551633,08a6d5b4-8321-4210-a43c-991d2d4da4ef,Dairy,Cream Cheese,3.5,8,28.0
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-15 02:41:03.551633,08a6d5b4-8321-4210-a43c-991d2d4da4ef,Meat,Beef,5.0,4,20.0
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-15 02:41:03.551633,08a6d5b4-8321-4210-a43c-991d2d4da4ef,Meat,Turkey,4.5,1,4.5
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-15 02:41:03.551633,08a6d5b4-8321-4210-a43c-991d2d4da4ef,Meat,Lamb,7.0,2,14.0
+Amanda Peters,6323c57f-a197-4954-b283-5498be80793e,2018-04-22,lauren11@example.net,2024-02-15 02:41:03.551633,08a6d5b4-8321-4210-a43c-991d2d4da4ef,Meat,Duck,8.0,7,56.0
+Emily Arroyo,74e04bbb-ca80-43a7-a5fd-89c831610b3d,1979-01-03,tboyd@example.com,2024-02-21 08:40:19.163773,8e50c79a-c582-4444-b9fa-f5012287401b,Meat,Pork,4.0,8,32.0
+Emily Arroyo,74e04bbb-ca80-43a7-a5fd-89c831610b3d,1979-01-03,tboyd@example.com,2024-02-21 08:40:19.163773,8e50c79a-c582-4444-b9fa-f5012287401b,Dairy,Cream,2.5,9,22.5
+Emily Arroyo,74e04bbb-ca80-43a7-a5fd-89c831610b3d,1979-01-03,tboyd@example.com,2024-02-21 08:40:19.163773,8e50c79a-c582-4444-b9fa-f5012287401b,Meat,Chicken,3.0,7,21.0
+Emily Arroyo,74e04bbb-ca80-43a7-a5fd-89c831610b3d,1979-01-03,tboyd@example.com,2024-02-21 08:40:19.163773,8e50c79a-c582-4444-b9fa-f5012287401b,Fruits,Pineapple,1.4,10,14.0
+Emily Arroyo,74e04bbb-ca80-43a7-a5fd-89c831610b3d,1979-01-03,tboyd@example.com,2024-02-02 06:36:27.807286,57e7ef7b-8486-40cf-9212-76c21519401c,Grains,Oats,1.2,6,7.199999999999999
+Emily Arroyo,74e04bbb-ca80-43a7-a5fd-89c831610b3d,1979-01-03,tboyd@example.com,2024-02-02 06:36:27.807286,57e7ef7b-8486-40cf-9212-76c21519401c,Fruits,Banana,0.75,6,4.5
+Emily Arroyo,74e04bbb-ca80-43a7-a5fd-89c831610b3d,1979-01-03,tboyd@example.com,2024-02-01 01:19:02.736055,6d7fe9b2-1a9e-4547-947a-08acc65d8e4e,Meat,Salmon,9.0,10,90.0
+Emily Arroyo,74e04bbb-ca80-43a7-a5fd-89c831610b3d,1979-01-03,tboyd@example.com,2024-02-01 01:19:02.736055,6d7fe9b2-1a9e-4547-947a-08acc65d8e4e,Dairy,Yogurt,1.5,8,12.0
+Emily Arroyo,74e04bbb-ca80-43a7-a5fd-89c831610b3d,1979-01-03,tboyd@example.com,2024-02-01 01:19:02.736055,6d7fe9b2-1a9e-4547-947a-08acc65d8e4e,Meat,Salmon,9.0,1,9.0
+Emily Arroyo,74e04bbb-ca80-43a7-a5fd-89c831610b3d,1979-01-03,tboyd@example.com,2024-02-14 13:17:48.428946,d560e64c-55f7-492a-b39a-c9e291fd7d4a,Grains,Couscous,2.0,5,10.0
+Emily Arroyo,74e04bbb-ca80-43a7-a5fd-89c831610b3d,1979-01-03,tboyd@example.com,2024-02-14 13:17:48.428946,d560e64c-55f7-492a-b39a-c9e291fd7d4a,Fruits,Banana,0.75,7,5.25
+Emily Arroyo,74e04bbb-ca80-43a7-a5fd-89c831610b3d,1979-01-03,tboyd@example.com,2024-02-14 13:17:48.428946,d560e64c-55f7-492a-b39a-c9e291fd7d4a,Meat,Shrimp,10.0,3,30.0
+Ivan Skinner,511fcda9-22d8-4170-9e6c-bd83a2f62516,2015-07-04,jessicasmith@example.net,2024-02-05 07:31:19.005841,b2e74e77-0fe1-4edf-a538-790169f12ccd,Grains,Bulgur,2.3,1,2.3
+Ivan Skinner,511fcda9-22d8-4170-9e6c-bd83a2f62516,2015-07-04,jessicasmith@example.net,2024-02-05 07:31:19.005841,b2e74e77-0fe1-4edf-a538-790169f12ccd,Vegetables,Broccoli,1.0,4,4.0
+James Williams,2b0c9fdd-b61b-43e9-8b60-fefcc47e330e,1949-08-29,russellscott@example.net,2024-02-21 02:52:28.769028,4f4b4ed5-ac1d-42e8-817d-f4f8c1a7de00,Dairy,Ice Cream,4.0,1,4.0
+James Williams,2b0c9fdd-b61b-43e9-8b60-fefcc47e330e,1949-08-29,russellscott@example.net,2024-02-21 02:52:28.769028,4f4b4ed5-ac1d-42e8-817d-f4f8c1a7de00,Grains,Pasta,2.0,8,16.0
+James Williams,2b0c9fdd-b61b-43e9-8b60-fefcc47e330e,1949-08-29,russellscott@example.net,2024-02-21 02:52:28.769028,4f4b4ed5-ac1d-42e8-817d-f4f8c1a7de00,Meat,Turkey,4.5,8,36.0
+James Williams,2b0c9fdd-b61b-43e9-8b60-fefcc47e330e,1949-08-29,russellscott@example.net,2024-02-13 13:18:24.080152,2e402534-6987-4052-b421-9d3ecdc39412,Grains,Pasta,2.0,9,18.0
+James Williams,2b0c9fdd-b61b-43e9-8b60-fefcc47e330e,1949-08-29,russellscott@example.net,2024-02-01 16:25:53.925400,f30459cc-30c4-4d61-839f-4b86cd6a5e0c,Dairy,Cream,2.5,5,12.5
+James Williams,2b0c9fdd-b61b-43e9-8b60-fefcc47e330e,1949-08-29,russellscott@example.net,2024-02-01 16:25:53.925400,f30459cc-30c4-4d61-839f-4b86cd6a5e0c,Vegetables,Broccoli,1.0,1,1.0
+James Williams,2b0c9fdd-b61b-43e9-8b60-fefcc47e330e,1949-08-29,russellscott@example.net,2024-02-01 16:25:53.925400,f30459cc-30c4-4d61-839f-4b86cd6a5e0c,Vegetables,Bell Pepper,1.3,9,11.700000000000001
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-20 10:42:58.363240,dba45b5e-1498-465b-b9fe-0a1b7efbe877,Fruits,Strawberry,1.8,5,9.0
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-20 10:42:58.363240,dba45b5e-1498-465b-b9fe-0a1b7efbe877,Dairy,Butter,2.5,10,25.0
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-20 10:42:58.363240,dba45b5e-1498-465b-b9fe-0a1b7efbe877,Meat,Salmon,9.0,4,36.0
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-20 10:42:58.363240,dba45b5e-1498-465b-b9fe-0a1b7efbe877,Fruits,Orange,1.2,2,2.4
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-20 10:42:58.363240,dba45b5e-1498-465b-b9fe-0a1b7efbe877,Dairy,Yogurt,1.5,8,12.0
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-02 03:41:40.621771,c8a17945-ca6d-4e06-a6e5-1767dcb32e4a,Meat,Turkey,4.5,2,9.0
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-20 03:38:25.601931,840fbb0b-a5e3-47af-871d-ade6432255ee,Grains,Oats,1.2,5,6.0
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-20 03:38:25.601931,840fbb0b-a5e3-47af-871d-ade6432255ee,Vegetables,Lettuce,1.2,6,7.199999999999999
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-20 03:38:25.601931,840fbb0b-a5e3-47af-871d-ade6432255ee,Grains,Quinoa,3.0,2,6.0
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-20 03:38:25.601931,840fbb0b-a5e3-47af-871d-ade6432255ee,Vegetables,Lettuce,1.2,4,4.8
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-20 03:38:25.601931,840fbb0b-a5e3-47af-871d-ade6432255ee,Dairy,Milk,2.0,6,12.0
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-03 03:15:01.800655,5bc9e889-5567-484c-9480-f037d39a4bb0,Grains,Barley,2.5,8,20.0
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-03 03:15:01.800655,5bc9e889-5567-484c-9480-f037d39a4bb0,Grains,Pasta,2.0,10,20.0
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-03 03:15:01.800655,5bc9e889-5567-484c-9480-f037d39a4bb0,Fruits,Banana,0.75,5,3.75
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-03 03:15:01.800655,5bc9e889-5567-484c-9480-f037d39a4bb0,Dairy,Cottage Cheese,2.0,9,18.0
+Hunter Martinez,675d0855-2d55-40c9-8576-598359cd012a,1979-08-08,morriskrystal@example.net,2024-02-03 03:15:01.800655,5bc9e889-5567-484c-9480-f037d39a4bb0,Dairy,Sour Cream,2.2,10,22.0
+Kaitlin Johnson,ce03a34d-a022-4fee-843f-b606e8b7e2da,1941-06-12,smithmatthew@example.net,2024-02-16 12:38:53.593901,ebbe1a41-c781-411f-acb3-8568291a58af,Meat,Chicken,3.0,8,24.0
+Kaitlin Johnson,ce03a34d-a022-4fee-843f-b606e8b7e2da,1941-06-12,smithmatthew@example.net,2024-02-16 12:38:53.593901,ebbe1a41-c781-411f-acb3-8568291a58af,Dairy,Cream Cheese,3.5,6,21.0
+Michael Hahn,f212cc6f-5409-48e7-9fed-6060ef23d4af,1910-11-29,pwilliams@example.net,2024-02-07 06:45:54.007211,5a220eb2-3cf9-41fe-b75a-7e6f2b863694,Grains,Pasta,2.0,3,6.0
+Michael Hahn,f212cc6f-5409-48e7-9fed-6060ef23d4af,1910-11-29,pwilliams@example.net,2024-02-07 06:45:54.007211,5a220eb2-3cf9-41fe-b75a-7e6f2b863694,Dairy,Cream Cheese,3.5,1,3.5
+Michael Hahn,f212cc6f-5409-48e7-9fed-6060ef23d4af,1910-11-29,pwilliams@example.net,2024-02-07 06:45:54.007211,5a220eb2-3cf9-41fe-b75a-7e6f2b863694,Fruits,Kiwi,1.1,3,3.3000000000000003
+Michael Hahn,f212cc6f-5409-48e7-9fed-6060ef23d4af,1910-11-29,pwilliams@example.net,2024-02-07 06:45:54.007211,5a220eb2-3cf9-41fe-b75a-7e6f2b863694,Meat,Pork,4.0,3,12.0
+Michael Hahn,f212cc6f-5409-48e7-9fed-6060ef23d4af,1910-11-29,pwilliams@example.net,2024-02-07 06:45:54.007211,5a220eb2-3cf9-41fe-b75a-7e6f2b863694,Meat,Fish,6.0,6,36.0
+Michael Hahn,f212cc6f-5409-48e7-9fed-6060ef23d4af,1910-11-29,pwilliams@example.net,2024-02-06 01:01:44.818372,5d005716-7680-491b-abb6-204ee0db22d3,Meat,Chicken,3.0,5,15.0
+Michael Hahn,f212cc6f-5409-48e7-9fed-6060ef23d4af,1910-11-29,pwilliams@example.net,2024-02-06 01:01:44.818372,5d005716-7680-491b-abb6-204ee0db22d3,Vegetables,Onion,0.9,5,4.5
+Michael Hahn,f212cc6f-5409-48e7-9fed-6060ef23d4af,1910-11-29,pwilliams@example.net,2024-02-06 01:01:44.818372,5d005716-7680-491b-abb6-204ee0db22d3,Vegetables,Potato,0.6,10,6.0
+Michael Hahn,f212cc6f-5409-48e7-9fed-6060ef23d4af,1910-11-29,pwilliams@example.net,2024-02-06 01:01:44.818372,5d005716-7680-491b-abb6-204ee0db22d3,Grains,Bread,1.5,9,13.5
+Michael Hahn,f212cc6f-5409-48e7-9fed-6060ef23d4af,1910-11-29,pwilliams@example.net,2024-02-06 01:01:44.818372,5d005716-7680-491b-abb6-204ee0db22d3,Vegetables,Garlic,1.1,10,11.0
+Brenda Cunningham,956a2f20-ee28-4bb7-a982-100c03729e33,1908-10-18,lhiggins@example.org,2024-02-01 10:26:46.097582,00f24603-8295-4fe0-92c5-53b5d2f74429,Grains,Farro,2.2,6,13.200000000000001
+Brenda Cunningham,956a2f20-ee28-4bb7-a982-100c03729e33,1908-10-18,lhiggins@example.org,2024-02-01 10:26:46.097582,00f24603-8295-4fe0-92c5-53b5d2f74429,Grains,Rice,1.0,1,1.0
+Brenda Cunningham,956a2f20-ee28-4bb7-a982-100c03729e33,1908-10-18,lhiggins@example.org,2024-02-01 20:26:37.944600,92b035e0-1ca5-42f5-acf1-50e6c6f149c7,Fruits,Peach,1.6,5,8.0
+Paula Nunez,6b325d48-06c4-4109-89a6-e611613f718d,1958-10-02,jennifer25@example.net,2024-02-05 20:00:29.560756,6862dc24-213a-4ad8-92b3-4a24667fceeb,Dairy,Ice Cream,4.0,1,4.0
+Paula Nunez,6b325d48-06c4-4109-89a6-e611613f718d,1958-10-02,jennifer25@example.net,2024-02-05 20:00:29.560756,6862dc24-213a-4ad8-92b3-4a24667fceeb,Dairy,Cream Cheese,3.5,5,17.5
+Paula Nunez,6b325d48-06c4-4109-89a6-e611613f718d,1958-10-02,jennifer25@example.net,2024-02-05 20:00:29.560756,6862dc24-213a-4ad8-92b3-4a24667fceeb,Meat,Salmon,9.0,4,36.0
+Paula Nunez,6b325d48-06c4-4109-89a6-e611613f718d,1958-10-02,jennifer25@example.net,2024-02-05 20:00:29.560756,6862dc24-213a-4ad8-92b3-4a24667fceeb,Dairy,Eggs,1.8,8,14.4
+Paula Nunez,6b325d48-06c4-4109-89a6-e611613f718d,1958-10-02,jennifer25@example.net,2024-02-05 20:00:29.560756,6862dc24-213a-4ad8-92b3-4a24667fceeb,Fruits,Apple,1.5,3,4.5
+Paula Nunez,6b325d48-06c4-4109-89a6-e611613f718d,1958-10-02,jennifer25@example.net,2024-02-13 15:06:46.059411,6e797a92-18b7-41a2-b74f-190559c07423,Dairy,Cottage Cheese,2.0,8,16.0
+Paula Nunez,6b325d48-06c4-4109-89a6-e611613f718d,1958-10-02,jennifer25@example.net,2024-02-13 15:06:46.059411,6e797a92-18b7-41a2-b74f-190559c07423,Vegetables,Cucumber,0.7,10,7.0
+Paula Nunez,6b325d48-06c4-4109-89a6-e611613f718d,1958-10-02,jennifer25@example.net,2024-02-13 15:06:46.059411,6e797a92-18b7-41a2-b74f-190559c07423,Vegetables,Cucumber,0.7,6,4.199999999999999
+Paula Nunez,6b325d48-06c4-4109-89a6-e611613f718d,1958-10-02,jennifer25@example.net,2024-02-13 15:06:46.059411,6e797a92-18b7-41a2-b74f-190559c07423,Meat,Duck,8.0,3,24.0
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-09 07:04:18.447190,c7938520-9c92-4e7f-9aa1-ecd6058fe8d5,Grains,Bread,1.5,6,9.0
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-09 07:04:18.447190,c7938520-9c92-4e7f-9aa1-ecd6058fe8d5,Vegetables,Bell Pepper,1.3,2,2.6
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-09 07:04:18.447190,c7938520-9c92-4e7f-9aa1-ecd6058fe8d5,Meat,Salmon,9.0,4,36.0
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-09 07:04:18.447190,c7938520-9c92-4e7f-9aa1-ecd6058fe8d5,Vegetables,Broccoli,1.0,1,1.0
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-09 07:04:18.447190,c7938520-9c92-4e7f-9aa1-ecd6058fe8d5,Meat,Duck,8.0,10,80.0
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-11 14:05:22.590364,9c684df1-0a51-4e87-86ba-68553cad275a,Vegetables,Lettuce,1.2,6,7.199999999999999
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-11 14:05:22.590364,9c684df1-0a51-4e87-86ba-68553cad275a,Grains,Barley,2.5,4,10.0
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-11 14:05:22.590364,9c684df1-0a51-4e87-86ba-68553cad275a,Vegetables,Bell Pepper,1.3,9,11.700000000000001
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-11 14:05:22.590364,9c684df1-0a51-4e87-86ba-68553cad275a,Dairy,Cottage Cheese,2.0,5,10.0
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-08 04:10:44.321983,a0483bb2-f6d0-40c4-a409-df32cc4e66da,Fruits,Banana,0.75,7,5.25
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-08 04:10:44.321983,a0483bb2-f6d0-40c4-a409-df32cc4e66da,Grains,Bulgur,2.3,4,9.2
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-08 04:10:44.321983,a0483bb2-f6d0-40c4-a409-df32cc4e66da,Vegetables,Garlic,1.1,6,6.6000000000000005
+Danielle James,a53011a2-3d74-49ee-a514-1471ea951570,1963-12-18,houstonwhitney@example.net,2024-02-08 04:10:44.321983,a0483bb2-f6d0-40c4-a409-df32cc4e66da,Fruits,Apple,1.5,5,7.5
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-11 06:39:58.311649,572abb53-2b6b-4b42-a950-23267644d183,Dairy,Eggs,1.8,9,16.2
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-11 06:39:58.311649,572abb53-2b6b-4b42-a950-23267644d183,Fruits,Banana,0.75,7,5.25
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-11 06:39:58.311649,572abb53-2b6b-4b42-a950-23267644d183,Vegetables,Potato,0.6,6,3.5999999999999996
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-11 06:39:58.311649,572abb53-2b6b-4b42-a950-23267644d183,Dairy,Cream,2.5,1,2.5
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-11 06:39:58.311649,572abb53-2b6b-4b42-a950-23267644d183,Dairy,Milk,2.0,10,20.0
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-11 13:59:13.194007,fefc5b4a-eb1d-4061-9717-aa6e28b4d5b9,Vegetables,Cucumber,0.7,9,6.3
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-11 13:59:13.194007,fefc5b4a-eb1d-4061-9717-aa6e28b4d5b9,Meat,Chicken,3.0,7,21.0
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-11 13:59:13.194007,fefc5b4a-eb1d-4061-9717-aa6e28b4d5b9,Grains,Bulgur,2.3,9,20.7
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-11 13:59:13.194007,fefc5b4a-eb1d-4061-9717-aa6e28b4d5b9,Meat,Crab,12.0,10,120.0
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-11 13:59:13.194007,fefc5b4a-eb1d-4061-9717-aa6e28b4d5b9,Fruits,Orange,1.2,2,2.4
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-20 06:55:47.245202,eef67139-1ccd-4340-80e9-7f74c30759a4,Meat,Turkey,4.5,9,40.5
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-20 06:55:47.245202,eef67139-1ccd-4340-80e9-7f74c30759a4,Meat,Pork,4.0,4,16.0
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-20 06:55:47.245202,eef67139-1ccd-4340-80e9-7f74c30759a4,Grains,Millet,2.1,7,14.700000000000001
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-20 06:55:47.245202,eef67139-1ccd-4340-80e9-7f74c30759a4,Grains,Rice,1.0,1,1.0
+Shawn Williams,c48ae374-06dc-4579-a476-40a1b6a659ef,1956-12-26,ghamilton@example.net,2024-02-09 05:11:24.730245,c421325a-5b8d-41ba-a0ec-3e5a24878d19,Vegetables,Cucumber,0.7,8,5.6
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-10 14:53:07.461995,600aa45e-44e1-408c-a919-9a8aaea62315,Vegetables,Garlic,1.1,9,9.9
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-10 14:53:07.461995,600aa45e-44e1-408c-a919-9a8aaea62315,Vegetables,Cucumber,0.7,10,7.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-10 14:53:07.461995,600aa45e-44e1-408c-a919-9a8aaea62315,Meat,Pork,4.0,7,28.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-10 14:53:07.461995,600aa45e-44e1-408c-a919-9a8aaea62315,Grains,Oats,1.2,10,12.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-17 05:43:40.796592,1c3c8d35-21d4-4b7e-a258-7c8958ccf9b4,Grains,Millet,2.1,9,18.900000000000002
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-17 05:43:40.796592,1c3c8d35-21d4-4b7e-a258-7c8958ccf9b4,Dairy,Ice Cream,4.0,5,20.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-17 05:43:40.796592,1c3c8d35-21d4-4b7e-a258-7c8958ccf9b4,Dairy,Milk,2.0,6,12.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-14 16:17:19.323949,93a25c9b-6e3a-42d7-87fe-6a4e2a6f1e47,Fruits,Pineapple,1.4,10,14.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-14 16:17:19.323949,93a25c9b-6e3a-42d7-87fe-6a4e2a6f1e47,Meat,Beef,5.0,10,50.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-14 16:17:19.323949,93a25c9b-6e3a-42d7-87fe-6a4e2a6f1e47,Dairy,Eggs,1.8,10,18.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-09 21:18:52.923255,b5004950-b5f5-4316-a453-35cc137fcd2b,Vegetables,Carrot,0.5,10,5.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-09 21:18:52.923255,b5004950-b5f5-4316-a453-35cc137fcd2b,Dairy,Yogurt,1.5,9,13.5
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-09 21:18:52.923255,b5004950-b5f5-4316-a453-35cc137fcd2b,Grains,Couscous,2.0,3,6.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-09 21:18:52.923255,b5004950-b5f5-4316-a453-35cc137fcd2b,Vegetables,Carrot,0.5,10,5.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-09 21:18:52.923255,b5004950-b5f5-4316-a453-35cc137fcd2b,Fruits,Grapes,2.0,1,2.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-16 04:32:04.867044,b9e8e4ee-8b7f-4d7a-ace8-d7dcc71d92d6,Meat,Duck,8.0,3,24.0
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-16 04:32:04.867044,b9e8e4ee-8b7f-4d7a-ace8-d7dcc71d92d6,Dairy,Butter,2.5,7,17.5
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-16 04:32:04.867044,b9e8e4ee-8b7f-4d7a-ace8-d7dcc71d92d6,Grains,Farro,2.2,8,17.6
+Joseph Brown,2d492ca2-41f4-417d-b514-1524e08c28eb,1992-01-25,kenneth04@example.net,2024-02-16 04:32:04.867044,b9e8e4ee-8b7f-4d7a-ace8-d7dcc71d92d6,Fruits,Orange,1.2,9,10.799999999999999
+Caroline Clark,22b3ce34-867a-4ac9-879b-e4e53a6e8f12,2003-02-23,rachel94@example.net,2024-02-18 16:43:05.303771,f6796fd3-cd74-4fec-9e54-8a7caf273f40,Meat,Salmon,9.0,9,81.0
+Caroline Clark,22b3ce34-867a-4ac9-879b-e4e53a6e8f12,2003-02-23,rachel94@example.net,2024-02-18 16:43:05.303771,f6796fd3-cd74-4fec-9e54-8a7caf273f40,Dairy,Cream,2.5,3,7.5
+Caroline Clark,22b3ce34-867a-4ac9-879b-e4e53a6e8f12,2003-02-23,rachel94@example.net,2024-02-18 16:43:05.303771,f6796fd3-cd74-4fec-9e54-8a7caf273f40,Dairy,Cream Cheese,3.5,6,21.0
+Caroline Clark,22b3ce34-867a-4ac9-879b-e4e53a6e8f12,2003-02-23,rachel94@example.net,2024-02-18 16:43:05.303771,f6796fd3-cd74-4fec-9e54-8a7caf273f40,Grains,Barley,2.5,5,12.5
+Caroline Clark,22b3ce34-867a-4ac9-879b-e4e53a6e8f12,2003-02-23,rachel94@example.net,2024-02-18 16:43:05.303771,f6796fd3-cd74-4fec-9e54-8a7caf273f40,Grains,Bulgur,2.3,4,9.2
+Caroline Clark,22b3ce34-867a-4ac9-879b-e4e53a6e8f12,2003-02-23,rachel94@example.net,2024-02-21 09:27:13.183197,dcfbde0a-c5fe-4487-a8ab-9281d68d2bc2,Meat,Shrimp,10.0,5,50.0
+Caroline Clark,22b3ce34-867a-4ac9-879b-e4e53a6e8f12,2003-02-23,rachel94@example.net,2024-02-21 09:27:13.183197,dcfbde0a-c5fe-4487-a8ab-9281d68d2bc2,Vegetables,Potato,0.6,5,3.0
+Christopher Burton,b1f5d7d0-887b-4cca-94f0-2dc4f7f1bb27,1924-11-30,vrollins@example.net,2024-02-07 19:26:11.425539,60e9bd79-fe1c-41e5-aa31-e67ae1680205,Meat,Salmon,9.0,6,54.0
+Christopher Burton,b1f5d7d0-887b-4cca-94f0-2dc4f7f1bb27,1924-11-30,vrollins@example.net,2024-02-07 19:26:11.425539,60e9bd79-fe1c-41e5-aa31-e67ae1680205,Grains,Oats,1.2,5,6.0
+Christopher Burton,b1f5d7d0-887b-4cca-94f0-2dc4f7f1bb27,1924-11-30,vrollins@example.net,2024-02-07 19:26:11.425539,60e9bd79-fe1c-41e5-aa31-e67ae1680205,Fruits,Peach,1.6,9,14.4
+Christopher Burton,b1f5d7d0-887b-4cca-94f0-2dc4f7f1bb27,1924-11-30,vrollins@example.net,2024-02-07 19:26:11.425539,60e9bd79-fe1c-41e5-aa31-e67ae1680205,Dairy,Sour Cream,2.2,6,13.200000000000001
+Christopher Burton,b1f5d7d0-887b-4cca-94f0-2dc4f7f1bb27,1924-11-30,vrollins@example.net,2024-02-08 17:32:28.239555,4e60678b-82f4-448a-b8a5-5d6bf2ded00f,Meat,Beef,5.0,5,25.0
+Christopher Burton,b1f5d7d0-887b-4cca-94f0-2dc4f7f1bb27,1924-11-30,vrollins@example.net,2024-02-08 17:32:28.239555,4e60678b-82f4-448a-b8a5-5d6bf2ded00f,Fruits,Watermelon,2.5,8,20.0
+Whitney Hess,25cc2478-276d-4e19-b924-e06aaef5baef,1908-09-18,terrydeborah@example.org,2024-02-14 07:00:10.058475,1c769e1f-8371-4849-bb52-14d99a66d48d,Vegetables,Tomato,0.8,9,7.2
+Whitney Hess,25cc2478-276d-4e19-b924-e06aaef5baef,1908-09-18,terrydeborah@example.org,2024-02-14 07:00:10.058475,1c769e1f-8371-4849-bb52-14d99a66d48d,Meat,Shrimp,10.0,5,50.0
+Whitney Hess,25cc2478-276d-4e19-b924-e06aaef5baef,1908-09-18,terrydeborah@example.org,2024-02-14 07:00:10.058475,1c769e1f-8371-4849-bb52-14d99a66d48d,Vegetables,Broccoli,1.0,10,10.0
+Whitney Hess,25cc2478-276d-4e19-b924-e06aaef5baef,1908-09-18,terrydeborah@example.org,2024-02-14 07:00:10.058475,1c769e1f-8371-4849-bb52-14d99a66d48d,Grains,Quinoa,3.0,4,12.0
+Whitney Hess,25cc2478-276d-4e19-b924-e06aaef5baef,1908-09-18,terrydeborah@example.org,2024-02-06 22:47:18.988497,603803f3-2b2b-4fda-9d43-19b5bb5f15c1,Grains,Quinoa,3.0,4,12.0
+Whitney Hess,25cc2478-276d-4e19-b924-e06aaef5baef,1908-09-18,terrydeborah@example.org,2024-02-02 21:42:48.889515,e4751694-1d8a-41a9-82af-33820938ad77,Fruits,Pineapple,1.4,6,8.399999999999999
+Nathan Flores,95919900-5e7c-4aad-b3df-770aad0cabfc,1988-12-16,oburnett@example.org,2024-02-13 12:43:21.681242,c7d02862-13f3-4e53-a509-8f9ad3c61e05,Vegetables,Carrot,0.5,9,4.5
+Nathan Flores,95919900-5e7c-4aad-b3df-770aad0cabfc,1988-12-16,oburnett@example.org,2024-02-20 02:31:36.509512,06999e1e-2b02-437e-a2cd-159aebba80d2,Dairy,Cottage Cheese,2.0,8,16.0
+Nathan Flores,95919900-5e7c-4aad-b3df-770aad0cabfc,1988-12-16,oburnett@example.org,2024-02-20 02:31:36.509512,06999e1e-2b02-437e-a2cd-159aebba80d2,Vegetables,Potato,0.6,6,3.5999999999999996
+Nathan Flores,95919900-5e7c-4aad-b3df-770aad0cabfc,1988-12-16,oburnett@example.org,2024-02-19 11:03:47.401584,fe656bef-e0ef-4989-aab4-65e9d97d2b38,Fruits,Banana,0.75,10,7.5
+Nathan Flores,95919900-5e7c-4aad-b3df-770aad0cabfc,1988-12-16,oburnett@example.org,2024-02-19 11:03:47.401584,fe656bef-e0ef-4989-aab4-65e9d97d2b38,Vegetables,Onion,0.9,1,0.9
+Nathan Flores,95919900-5e7c-4aad-b3df-770aad0cabfc,1988-12-16,oburnett@example.org,2024-02-19 11:03:47.401584,fe656bef-e0ef-4989-aab4-65e9d97d2b38,Vegetables,Spinach,1.5,3,4.5
+Nathan Flores,95919900-5e7c-4aad-b3df-770aad0cabfc,1988-12-16,oburnett@example.org,2024-02-12 12:53:34.867122,702cebbe-3544-4189-a920-46339bb68cd2,Dairy,Cottage Cheese,2.0,3,6.0
+Jennifer Smith,2bdc9c10-6362-41c3-ab6e-c9e0225f5457,2010-10-29,hendrickssarah@example.org,2024-02-15 08:50:55.625912,81bd5336-3bac-4660-95a3-a12967ba6b1a,Fruits,Strawberry,1.8,10,18.0
+Jennifer Smith,2bdc9c10-6362-41c3-ab6e-c9e0225f5457,2010-10-29,hendrickssarah@example.org,2024-02-20 11:39:18.129508,1a0ff218-9eb8-4325-badd-8fed0a02da60,Fruits,Watermelon,2.5,5,12.5
+Jennifer Smith,2bdc9c10-6362-41c3-ab6e-c9e0225f5457,2010-10-29,hendrickssarah@example.org,2024-02-20 11:39:18.129508,1a0ff218-9eb8-4325-badd-8fed0a02da60,Dairy,Cream Cheese,3.5,9,31.5
+Jennifer Smith,2bdc9c10-6362-41c3-ab6e-c9e0225f5457,2010-10-29,hendrickssarah@example.org,2024-02-20 11:39:18.129508,1a0ff218-9eb8-4325-badd-8fed0a02da60,Dairy,Yogurt,1.5,9,13.5
+Jennifer Smith,2bdc9c10-6362-41c3-ab6e-c9e0225f5457,2010-10-29,hendrickssarah@example.org,2024-02-20 11:39:18.129508,1a0ff218-9eb8-4325-badd-8fed0a02da60,Dairy,Eggs,1.8,4,7.2
+Jennifer Smith,2bdc9c10-6362-41c3-ab6e-c9e0225f5457,2010-10-29,hendrickssarah@example.org,2024-02-20 11:39:18.129508,1a0ff218-9eb8-4325-badd-8fed0a02da60,Fruits,Watermelon,2.5,3,7.5
+Jennifer Smith,2bdc9c10-6362-41c3-ab6e-c9e0225f5457,2010-10-29,hendrickssarah@example.org,2024-02-06 23:51:58.307352,a51de78b-8d00-47b2-bd82-fccf81eb88e5,Meat,Pork,4.0,1,4.0
+Jennifer Smith,2bdc9c10-6362-41c3-ab6e-c9e0225f5457,2010-10-29,hendrickssarah@example.org,2024-02-06 23:51:58.307352,a51de78b-8d00-47b2-bd82-fccf81eb88e5,Meat,Lamb,7.0,10,70.0
+Jennifer Smith,2bdc9c10-6362-41c3-ab6e-c9e0225f5457,2010-10-29,hendrickssarah@example.org,2024-02-06 23:51:58.307352,a51de78b-8d00-47b2-bd82-fccf81eb88e5,Vegetables,Lettuce,1.2,10,12.0
+Jennifer Smith,2bdc9c10-6362-41c3-ab6e-c9e0225f5457,2010-10-29,hendrickssarah@example.org,2024-02-06 23:51:58.307352,a51de78b-8d00-47b2-bd82-fccf81eb88e5,Dairy,Sour Cream,2.2,9,19.8
+Derek Hall,da286b7a-4d6d-49a6-a8d7-98b45d443821,1978-10-09,stephenrivers@example.com,2024-02-09 18:33:19.486337,179d221d-8e5f-47fa-a8f4-9b51f3fa8613,Dairy,Cheese,3.0,3,9.0
+Derek Hall,da286b7a-4d6d-49a6-a8d7-98b45d443821,1978-10-09,stephenrivers@example.com,2024-02-06 22:10:17.075295,4bf41e10-1c62-4f82-9081-3d923aca43f2,Dairy,Cream,2.5,4,10.0
+Derek Hall,da286b7a-4d6d-49a6-a8d7-98b45d443821,1978-10-09,stephenrivers@example.com,2024-02-06 22:10:17.075295,4bf41e10-1c62-4f82-9081-3d923aca43f2,Fruits,Strawberry,1.8,7,12.6
+Derek Hall,da286b7a-4d6d-49a6-a8d7-98b45d443821,1978-10-09,stephenrivers@example.com,2024-02-04 03:32:02.517154,a88f58c1-237d-4b90-981a-218ecfd64560,Dairy,Eggs,1.8,6,10.8
+Derek Hall,da286b7a-4d6d-49a6-a8d7-98b45d443821,1978-10-09,stephenrivers@example.com,2024-02-04 03:32:02.517154,a88f58c1-237d-4b90-981a-218ecfd64560,Meat,Crab,12.0,10,120.0
+Samantha Taylor,0876daaa-01ce-4fc6-b2d1-16fe8f08963c,2008-02-21,gklein@example.com,2024-02-13 11:35:55.324041,df61c534-57d1-437c-87af-ae8fdfecb2ae,Meat,Fish,6.0,1,6.0
+Samantha Taylor,0876daaa-01ce-4fc6-b2d1-16fe8f08963c,2008-02-21,gklein@example.com,2024-02-13 11:35:55.324041,df61c534-57d1-437c-87af-ae8fdfecb2ae,Fruits,Mango,1.9,5,9.5
+Samantha Taylor,0876daaa-01ce-4fc6-b2d1-16fe8f08963c,2008-02-21,gklein@example.com,2024-02-13 11:35:55.324041,df61c534-57d1-437c-87af-ae8fdfecb2ae,Vegetables,Spinach,1.5,9,13.5
+Aaron Perez,4642cddb-4fbe-4aae-bbf7-0946d6ada066,1934-03-14,gkelly@example.com,2024-02-03 01:04:51.239722,39ebfa32-6c1b-4811-92db-d6134e051eea,Meat,Turkey,4.5,10,45.0
+Aaron Perez,4642cddb-4fbe-4aae-bbf7-0946d6ada066,1934-03-14,gkelly@example.com,2024-02-17 11:39:57.073573,c2185e77-dc58-4a6a-a193-db51f6aca9b4,Vegetables,Lettuce,1.2,8,9.6
+Aaron Perez,4642cddb-4fbe-4aae-bbf7-0946d6ada066,1934-03-14,gkelly@example.com,2024-02-17 11:39:57.073573,c2185e77-dc58-4a6a-a193-db51f6aca9b4,Vegetables,Bell Pepper,1.3,10,13.0
+Aaron Perez,4642cddb-4fbe-4aae-bbf7-0946d6ada066,1934-03-14,gkelly@example.com,2024-02-04 05:53:34.470880,be0d24ed-3306-4611-af96-a21449b3fe66,Dairy,Cream Cheese,3.5,8,28.0
+Aaron Perez,4642cddb-4fbe-4aae-bbf7-0946d6ada066,1934-03-14,gkelly@example.com,2024-02-04 05:53:34.470880,be0d24ed-3306-4611-af96-a21449b3fe66,Grains,Quinoa,3.0,4,12.0
+Aaron Perez,4642cddb-4fbe-4aae-bbf7-0946d6ada066,1934-03-14,gkelly@example.com,2024-02-04 05:53:34.470880,be0d24ed-3306-4611-af96-a21449b3fe66,Grains,Bread,1.5,9,13.5
+Mary Harrington,211e55c3-9cc7-43ad-a264-190f486c0adf,2004-07-23,moralesvincent@example.com,2024-02-06 02:25:30.656181,ea75e34d-a1d5-4402-9fba-6dc2b594b706,Meat,Chicken,3.0,10,30.0
+Mary Harrington,211e55c3-9cc7-43ad-a264-190f486c0adf,2004-07-23,moralesvincent@example.com,2024-02-06 02:25:30.656181,ea75e34d-a1d5-4402-9fba-6dc2b594b706,Fruits,Apple,1.5,9,13.5
+Mary Harrington,211e55c3-9cc7-43ad-a264-190f486c0adf,2004-07-23,moralesvincent@example.com,2024-02-06 02:25:30.656181,ea75e34d-a1d5-4402-9fba-6dc2b594b706,Grains,Quinoa,3.0,10,30.0
+Mary Harrington,211e55c3-9cc7-43ad-a264-190f486c0adf,2004-07-23,moralesvincent@example.com,2024-02-06 02:25:30.656181,ea75e34d-a1d5-4402-9fba-6dc2b594b706,Grains,Pasta,2.0,3,6.0
+Mary Harrington,211e55c3-9cc7-43ad-a264-190f486c0adf,2004-07-23,moralesvincent@example.com,2024-02-06 02:25:30.656181,ea75e34d-a1d5-4402-9fba-6dc2b594b706,Meat,Shrimp,10.0,8,80.0
+Mary Harrington,211e55c3-9cc7-43ad-a264-190f486c0adf,2004-07-23,moralesvincent@example.com,2024-02-09 00:05:12.603981,669ff1b9-f902-46c0-9bf5-72794704768e,Vegetables,Garlic,1.1,8,8.8
+Mary Harrington,211e55c3-9cc7-43ad-a264-190f486c0adf,2004-07-23,moralesvincent@example.com,2024-02-18 02:50:59.181892,ddd3e779-4879-496d-be38-f4ebb6e0eac2,Grains,Bulgur,2.3,1,2.3
+Mary Harrington,211e55c3-9cc7-43ad-a264-190f486c0adf,2004-07-23,moralesvincent@example.com,2024-02-03 08:22:29.621995,722c353d-1ee1-423b-8a96-86a4e7524102,Vegetables,Onion,0.9,7,6.3
+Mary Harrington,211e55c3-9cc7-43ad-a264-190f486c0adf,2004-07-23,moralesvincent@example.com,2024-02-03 08:22:29.621995,722c353d-1ee1-423b-8a96-86a4e7524102,Dairy,Ice Cream,4.0,1,4.0
+Mary Harrington,211e55c3-9cc7-43ad-a264-190f486c0adf,2004-07-23,moralesvincent@example.com,2024-02-03 08:22:29.621995,722c353d-1ee1-423b-8a96-86a4e7524102,Grains,Bulgur,2.3,5,11.5
+Mary Harrington,211e55c3-9cc7-43ad-a264-190f486c0adf,2004-07-23,moralesvincent@example.com,2024-02-03 08:22:29.621995,722c353d-1ee1-423b-8a96-86a4e7524102,Fruits,Pineapple,1.4,5,7.0
+Timothy Paul,7fd2770a-568d-4f3e-b4b4-45aaedfda291,1934-09-03,dhester@example.net,2024-02-11 07:14:58.198438,90de6fba-ffb5-4512-ba04-a706ef8dff9b,Grains,Bread,1.5,1,1.5
+Timothy Paul,7fd2770a-568d-4f3e-b4b4-45aaedfda291,1934-09-03,dhester@example.net,2024-02-11 07:14:58.198438,90de6fba-ffb5-4512-ba04-a706ef8dff9b,Dairy,Cream,2.5,2,5.0
+Connie Ross,5084a40f-3b8f-4fc7-bc96-eefa4fab2ad8,1968-03-22,davislogan@example.org,2024-02-19 07:27:52.026884,934c472a-0c72-4e13-bbf2-8c1c6e6d086c,Fruits,Mango,1.9,1,1.9
+Connie Ross,5084a40f-3b8f-4fc7-bc96-eefa4fab2ad8,1968-03-22,davislogan@example.org,2024-02-18 05:00:50.922421,3346f7c6-4372-49fd-97ee-2fe6681091fe,Dairy,Yogurt,1.5,3,4.5
+Connie Ross,5084a40f-3b8f-4fc7-bc96-eefa4fab2ad8,1968-03-22,davislogan@example.org,2024-02-18 05:00:50.922421,3346f7c6-4372-49fd-97ee-2fe6681091fe,Dairy,Cream,2.5,7,17.5
+Connie Ross,5084a40f-3b8f-4fc7-bc96-eefa4fab2ad8,1968-03-22,davislogan@example.org,2024-02-18 05:00:50.922421,3346f7c6-4372-49fd-97ee-2fe6681091fe,Dairy,Sour Cream,2.2,7,15.400000000000002
+Connie Ross,5084a40f-3b8f-4fc7-bc96-eefa4fab2ad8,1968-03-22,davislogan@example.org,2024-02-17 04:25:06.136100,cc16014a-2e4a-4e78-9cf4-a8ed2db6de21,Grains,Pasta,2.0,6,12.0
+Connie Ross,5084a40f-3b8f-4fc7-bc96-eefa4fab2ad8,1968-03-22,davislogan@example.org,2024-02-16 14:04:43.539008,0b2f8580-f3f0-4323-bbd5-f8a2073c36ba,Vegetables,Onion,0.9,7,6.3
+Connie Ross,5084a40f-3b8f-4fc7-bc96-eefa4fab2ad8,1968-03-22,davislogan@example.org,2024-02-01 04:19:58.586877,1dd26234-2131-44bd-8127-5a6388da091b,Vegetables,Tomato,0.8,1,0.8
+Connie Ross,5084a40f-3b8f-4fc7-bc96-eefa4fab2ad8,1968-03-22,davislogan@example.org,2024-02-01 04:19:58.586877,1dd26234-2131-44bd-8127-5a6388da091b,Fruits,Strawberry,1.8,8,14.4
+Connie Ross,5084a40f-3b8f-4fc7-bc96-eefa4fab2ad8,1968-03-22,davislogan@example.org,2024-02-01 04:19:58.586877,1dd26234-2131-44bd-8127-5a6388da091b,Grains,Couscous,2.0,9,18.0
+Connie Ross,5084a40f-3b8f-4fc7-bc96-eefa4fab2ad8,1968-03-22,davislogan@example.org,2024-02-01 04:19:58.586877,1dd26234-2131-44bd-8127-5a6388da091b,Dairy,Butter,2.5,4,10.0
+Connie Ross,5084a40f-3b8f-4fc7-bc96-eefa4fab2ad8,1968-03-22,davislogan@example.org,2024-02-01 04:19:58.586877,1dd26234-2131-44bd-8127-5a6388da091b,Dairy,Cream,2.5,3,7.5
+Lisa Gaines,329cd43a-7751-43fa-bdb6-2ff314e16706,2006-06-27,ljones@example.org,2024-02-06 01:30:58.069541,ceb09220-7984-433f-a1c6-1ae46a594b07,Fruits,Apple,1.5,7,10.5
+Lisa Gaines,329cd43a-7751-43fa-bdb6-2ff314e16706,2006-06-27,ljones@example.org,2024-02-06 01:30:58.069541,ceb09220-7984-433f-a1c6-1ae46a594b07,Grains,Rice,1.0,4,4.0
+Lisa Gaines,329cd43a-7751-43fa-bdb6-2ff314e16706,2006-06-27,ljones@example.org,2024-02-01 00:11:52.891986,c3edd9b7-f9df-4275-a199-401535c9599f,Fruits,Banana,0.75,10,7.5
+Lisa Gaines,329cd43a-7751-43fa-bdb6-2ff314e16706,2006-06-27,ljones@example.org,2024-02-01 00:11:52.891986,c3edd9b7-f9df-4275-a199-401535c9599f,Fruits,Mango,1.9,10,19.0
+Lisa Gaines,329cd43a-7751-43fa-bdb6-2ff314e16706,2006-06-27,ljones@example.org,2024-02-01 22:03:26.422566,95331356-074f-4be0-84f2-0133f45c8840,Vegetables,Carrot,0.5,7,3.5
+Jacob Rogers,988d0e4a-2266-4107-a408-001f743397f1,1968-02-14,sierra14@example.org,2024-02-16 10:42:24.042174,22ca9fe8-a8aa-4d13-85a9-18d19eede43c,Grains,Quinoa,3.0,1,3.0
+Jacob Rogers,988d0e4a-2266-4107-a408-001f743397f1,1968-02-14,sierra14@example.org,2024-02-16 10:42:24.042174,22ca9fe8-a8aa-4d13-85a9-18d19eede43c,Vegetables,Onion,0.9,5,4.5
+Jacob Rogers,988d0e4a-2266-4107-a408-001f743397f1,1968-02-14,sierra14@example.org,2024-02-09 10:52:47.881605,51cd2c07-a8f7-4b61-b9d2-b2de92bba701,Grains,Barley,2.5,10,25.0
+Jacob Rogers,988d0e4a-2266-4107-a408-001f743397f1,1968-02-14,sierra14@example.org,2024-02-09 10:52:47.881605,51cd2c07-a8f7-4b61-b9d2-b2de92bba701,Grains,Barley,2.5,4,10.0
+Jacob Rogers,988d0e4a-2266-4107-a408-001f743397f1,1968-02-14,sierra14@example.org,2024-02-05 11:58:23.164118,8f41d3e4-1ece-45e5-8018-41f4820d15c6,Vegetables,Onion,0.9,4,3.6
+Jacob Rogers,988d0e4a-2266-4107-a408-001f743397f1,1968-02-14,sierra14@example.org,2024-02-05 11:58:23.164118,8f41d3e4-1ece-45e5-8018-41f4820d15c6,Dairy,Eggs,1.8,5,9.0
+Jacob Rogers,988d0e4a-2266-4107-a408-001f743397f1,1968-02-14,sierra14@example.org,2024-02-05 11:58:23.164118,8f41d3e4-1ece-45e5-8018-41f4820d15c6,Fruits,Kiwi,1.1,10,11.0
+Jacob Rogers,988d0e4a-2266-4107-a408-001f743397f1,1968-02-14,sierra14@example.org,2024-02-03 08:30:15.839314,824d9e96-1fe2-43b0-b980-1aaae93b4418,Dairy,Cream Cheese,3.5,8,28.0
+Jacob Rogers,988d0e4a-2266-4107-a408-001f743397f1,1968-02-14,sierra14@example.org,2024-02-03 08:30:15.839314,824d9e96-1fe2-43b0-b980-1aaae93b4418,Fruits,Watermelon,2.5,7,17.5
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-08 19:57:45.584286,061f5679-6908-4bd6-af61-7cacc674d244,Dairy,Sour Cream,2.2,3,6.6000000000000005
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-08 19:57:45.584286,061f5679-6908-4bd6-af61-7cacc674d244,Meat,Duck,8.0,3,24.0
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-08 19:57:45.584286,061f5679-6908-4bd6-af61-7cacc674d244,Grains,Bulgur,2.3,4,9.2
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-10 23:20:14.389471,67a4eb26-8d6e-44f2-8189-a5d9e355c369,Meat,Pork,4.0,8,32.0
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-10 23:20:14.389471,67a4eb26-8d6e-44f2-8189-a5d9e355c369,Fruits,Kiwi,1.1,7,7.700000000000001
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-22 09:15:06.179845,6df2fc82-3956-4ba9-b232-3dc9c67781b2,Grains,Millet,2.1,3,6.300000000000001
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-22 09:15:06.179845,6df2fc82-3956-4ba9-b232-3dc9c67781b2,Dairy,Butter,2.5,5,12.5
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-22 09:15:06.179845,6df2fc82-3956-4ba9-b232-3dc9c67781b2,Vegetables,Cucumber,0.7,2,1.4
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-22 09:15:06.179845,6df2fc82-3956-4ba9-b232-3dc9c67781b2,Dairy,Cream,2.5,2,5.0
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-06 09:04:15.399290,3a6f36fa-2418-43ef-b99f-de337a2be049,Vegetables,Carrot,0.5,5,2.5
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-06 09:04:15.399290,3a6f36fa-2418-43ef-b99f-de337a2be049,Dairy,Ice Cream,4.0,10,40.0
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-06 09:04:15.399290,3a6f36fa-2418-43ef-b99f-de337a2be049,Fruits,Banana,0.75,4,3.0
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-06 09:04:15.399290,3a6f36fa-2418-43ef-b99f-de337a2be049,Grains,Millet,2.1,4,8.4
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-06 09:04:15.399290,3a6f36fa-2418-43ef-b99f-de337a2be049,Dairy,Butter,2.5,6,15.0
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-10 20:04:36.132774,99755cb9-7c76-4592-a73e-3f3b5c27761d,Fruits,Grapes,2.0,4,8.0
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-10 20:04:36.132774,99755cb9-7c76-4592-a73e-3f3b5c27761d,Fruits,Mango,1.9,4,7.6
+Julie Gibson,41229d75-6a8d-4e84-a0fe-652b56fe2301,1951-11-26,lori37@example.org,2024-02-10 20:04:36.132774,99755cb9-7c76-4592-a73e-3f3b5c27761d,Grains,Quinoa,3.0,7,21.0
+Brittany Decker,4cc672fc-3006-4f85-966a-1a98af3b5a91,2016-05-06,shaheric@example.org,2024-02-08 11:04:12.182366,c408143f-290d-47e4-8e1f-40819f2d5db8,Meat,Lamb,7.0,7,49.0
+Brittany Decker,4cc672fc-3006-4f85-966a-1a98af3b5a91,2016-05-06,shaheric@example.org,2024-02-08 11:04:12.182366,c408143f-290d-47e4-8e1f-40819f2d5db8,Dairy,Cream Cheese,3.5,6,21.0
+Brittany Decker,4cc672fc-3006-4f85-966a-1a98af3b5a91,2016-05-06,shaheric@example.org,2024-02-08 11:04:12.182366,c408143f-290d-47e4-8e1f-40819f2d5db8,Meat,Lamb,7.0,6,42.0
+Brittany Decker,4cc672fc-3006-4f85-966a-1a98af3b5a91,2016-05-06,shaheric@example.org,2024-02-08 11:04:12.182366,c408143f-290d-47e4-8e1f-40819f2d5db8,Grains,Bulgur,2.3,8,18.4
+Brittany Decker,4cc672fc-3006-4f85-966a-1a98af3b5a91,2016-05-06,shaheric@example.org,2024-02-08 11:04:12.182366,c408143f-290d-47e4-8e1f-40819f2d5db8,Fruits,Mango,1.9,6,11.399999999999999
+Brittany Decker,4cc672fc-3006-4f85-966a-1a98af3b5a91,2016-05-06,shaheric@example.org,2024-02-21 01:54:28.093922,69560c06-3008-4519-ad83-095163eaa005,Meat,Turkey,4.5,7,31.5
+Brittany Decker,4cc672fc-3006-4f85-966a-1a98af3b5a91,2016-05-06,shaheric@example.org,2024-02-21 01:54:28.093922,69560c06-3008-4519-ad83-095163eaa005,Fruits,Peach,1.6,4,6.4
+Christopher Williams DVM,e33e270a-56c6-444d-b60c-e881c5ac7520,1996-04-14,jenniferwhite@example.net,2024-02-16 21:32:10.539001,26f33244-6f1d-4baf-952b-750d9830349d,Meat,Shrimp,10.0,10,100.0
+Christopher Williams DVM,e33e270a-56c6-444d-b60c-e881c5ac7520,1996-04-14,jenniferwhite@example.net,2024-02-15 03:13:06.257867,a9c7ae92-e61b-4dc6-be52-5e4f9e203161,Dairy,Eggs,1.8,3,5.4
+Christopher Williams DVM,e33e270a-56c6-444d-b60c-e881c5ac7520,1996-04-14,jenniferwhite@example.net,2024-02-15 03:13:06.257867,a9c7ae92-e61b-4dc6-be52-5e4f9e203161,Vegetables,Cucumber,0.7,4,2.8
+Christopher Williams DVM,e33e270a-56c6-444d-b60c-e881c5ac7520,1996-04-14,jenniferwhite@example.net,2024-02-15 03:13:06.257867,a9c7ae92-e61b-4dc6-be52-5e4f9e203161,Dairy,Ice Cream,4.0,4,16.0
+Christopher Williams DVM,e33e270a-56c6-444d-b60c-e881c5ac7520,1996-04-14,jenniferwhite@example.net,2024-02-15 03:13:06.257867,a9c7ae92-e61b-4dc6-be52-5e4f9e203161,Dairy,Cream Cheese,3.5,6,21.0
+Christopher Williams DVM,e33e270a-56c6-444d-b60c-e881c5ac7520,1996-04-14,jenniferwhite@example.net,2024-02-15 03:13:06.257867,a9c7ae92-e61b-4dc6-be52-5e4f9e203161,Meat,Salmon,9.0,8,72.0
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-10 21:18:49.540794,a92c3c3e-3957-4082-9c27-2c51ac98a368,Meat,Pork,4.0,3,12.0
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-10 21:18:49.540794,a92c3c3e-3957-4082-9c27-2c51ac98a368,Grains,Bulgur,2.3,3,6.8999999999999995
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-16 06:30:50.622703,840658d1-c1da-4d39-b735-0626dca8b6fd,Fruits,Kiwi,1.1,1,1.1
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-16 06:30:50.622703,840658d1-c1da-4d39-b735-0626dca8b6fd,Fruits,Apple,1.5,1,1.5
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-16 06:30:50.622703,840658d1-c1da-4d39-b735-0626dca8b6fd,Dairy,Yogurt,1.5,4,6.0
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-16 06:30:50.622703,840658d1-c1da-4d39-b735-0626dca8b6fd,Fruits,Orange,1.2,1,1.2
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-16 06:30:50.622703,840658d1-c1da-4d39-b735-0626dca8b6fd,Vegetables,Onion,0.9,8,7.2
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-10 11:50:27.612483,495103ed-fd05-45f5-a252-1f50a54e6c8f,Fruits,Peach,1.6,10,16.0
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-10 11:50:27.612483,495103ed-fd05-45f5-a252-1f50a54e6c8f,Dairy,Cottage Cheese,2.0,1,2.0
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-10 11:50:27.612483,495103ed-fd05-45f5-a252-1f50a54e6c8f,Fruits,Kiwi,1.1,9,9.9
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-20 18:04:39.562184,31307e46-af79-4546-be51-68dc5690f74d,Fruits,Apple,1.5,9,13.5
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-20 18:04:39.562184,31307e46-af79-4546-be51-68dc5690f74d,Meat,Shrimp,10.0,5,50.0
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-20 18:04:39.562184,31307e46-af79-4546-be51-68dc5690f74d,Fruits,Kiwi,1.1,7,7.700000000000001
+Cindy Alexander,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,2005-12-29,aaronbrown@example.org,2024-02-20 18:04:39.562184,31307e46-af79-4546-be51-68dc5690f74d,Vegetables,Broccoli,1.0,2,2.0
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-17 18:27:13.243383,f361c497-64e0-4ab3-afb8-0c63f42f338f,Vegetables,Tomato,0.8,10,8.0
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-17 18:27:13.243383,f361c497-64e0-4ab3-afb8-0c63f42f338f,Grains,Oats,1.2,6,7.199999999999999
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-11 08:22:32.303952,5e2d2454-e462-42e7-b5c3-de958a647b9f,Dairy,Cheese,3.0,6,18.0
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-11 08:22:32.303952,5e2d2454-e462-42e7-b5c3-de958a647b9f,Dairy,Cottage Cheese,2.0,10,20.0
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-11 08:22:32.303952,5e2d2454-e462-42e7-b5c3-de958a647b9f,Vegetables,Tomato,0.8,5,4.0
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-16 17:03:36.070075,166adfc4-3513-498c-a7f8-ab5705727bb5,Fruits,Banana,0.75,7,5.25
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-20 01:12:09.283203,ca6cb87c-dfb8-4708-91d2-125a95e19cb6,Dairy,Cream Cheese,3.5,8,28.0
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-20 01:12:09.283203,ca6cb87c-dfb8-4708-91d2-125a95e19cb6,Fruits,Apple,1.5,3,4.5
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-20 01:12:09.283203,ca6cb87c-dfb8-4708-91d2-125a95e19cb6,Fruits,Mango,1.9,7,13.299999999999999
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-20 01:12:09.283203,ca6cb87c-dfb8-4708-91d2-125a95e19cb6,Meat,Crab,12.0,2,24.0
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-10 04:16:34.464547,f5efaa99-010f-4ddf-a225-183835e1392e,Fruits,Grapes,2.0,4,8.0
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-10 04:16:34.464547,f5efaa99-010f-4ddf-a225-183835e1392e,Grains,Bulgur,2.3,5,11.5
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-10 04:16:34.464547,f5efaa99-010f-4ddf-a225-183835e1392e,Fruits,Banana,0.75,5,3.75
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-10 04:16:34.464547,f5efaa99-010f-4ddf-a225-183835e1392e,Grains,Farro,2.2,1,2.2
+Justin Kelly,fd723837-705b-4cc2-a40c-a20c702a5b67,1985-01-29,ojones@example.org,2024-02-10 04:16:34.464547,f5efaa99-010f-4ddf-a225-183835e1392e,Vegetables,Cucumber,0.7,1,0.7
+Brandy Day DDS,10e857f8-8986-448f-8b3e-00e76151787e,1917-03-23,ngoodwin@example.com,2024-02-14 18:22:07.365681,beb9c9e2-156e-4ae5-8fe4-b7355c29b6da,Vegetables,Spinach,1.5,2,3.0
+Brandy Day DDS,10e857f8-8986-448f-8b3e-00e76151787e,1917-03-23,ngoodwin@example.com,2024-02-14 18:22:07.365681,beb9c9e2-156e-4ae5-8fe4-b7355c29b6da,Meat,Pork,4.0,10,40.0
+Brandy Day DDS,10e857f8-8986-448f-8b3e-00e76151787e,1917-03-23,ngoodwin@example.com,2024-02-14 18:22:07.365681,beb9c9e2-156e-4ae5-8fe4-b7355c29b6da,Vegetables,Garlic,1.1,7,7.700000000000001
+Brandy Day DDS,10e857f8-8986-448f-8b3e-00e76151787e,1917-03-23,ngoodwin@example.com,2024-02-14 18:22:07.365681,beb9c9e2-156e-4ae5-8fe4-b7355c29b6da,Grains,Barley,2.5,7,17.5
+Brandy Day DDS,10e857f8-8986-448f-8b3e-00e76151787e,1917-03-23,ngoodwin@example.com,2024-02-14 18:22:07.365681,beb9c9e2-156e-4ae5-8fe4-b7355c29b6da,Vegetables,Broccoli,1.0,9,9.0
+Brandy Day DDS,10e857f8-8986-448f-8b3e-00e76151787e,1917-03-23,ngoodwin@example.com,2024-02-01 12:26:26.580400,f7cd0b75-9d26-4e76-bd37-03f8cef980ce,Fruits,Banana,0.75,7,5.25
+Brandy Day DDS,10e857f8-8986-448f-8b3e-00e76151787e,1917-03-23,ngoodwin@example.com,2024-02-01 12:26:26.580400,f7cd0b75-9d26-4e76-bd37-03f8cef980ce,Vegetables,Broccoli,1.0,6,6.0
+Brandy Day DDS,10e857f8-8986-448f-8b3e-00e76151787e,1917-03-23,ngoodwin@example.com,2024-02-01 12:26:26.580400,f7cd0b75-9d26-4e76-bd37-03f8cef980ce,Grains,Farro,2.2,10,22.0
+Leah Mullen,42260a44-773b-4350-a743-e0df5e15428a,1920-12-04,oramirez@example.com,2024-02-09 13:38:19.274055,3a724b9f-56fb-4c72-ad6a-1bfc81be81f4,Fruits,Strawberry,1.8,8,14.4
+Leah Mullen,42260a44-773b-4350-a743-e0df5e15428a,1920-12-04,oramirez@example.com,2024-02-09 13:38:19.274055,3a724b9f-56fb-4c72-ad6a-1bfc81be81f4,Dairy,Butter,2.5,6,15.0
+Leah Mullen,42260a44-773b-4350-a743-e0df5e15428a,1920-12-04,oramirez@example.com,2024-02-09 13:38:19.274055,3a724b9f-56fb-4c72-ad6a-1bfc81be81f4,Grains,Couscous,2.0,7,14.0
+Leah Mullen,42260a44-773b-4350-a743-e0df5e15428a,1920-12-04,oramirez@example.com,2024-02-19 09:16:20.580982,0b44361f-16c7-454a-af82-c4d6438dc8b1,Grains,Couscous,2.0,2,4.0
+Leah Mullen,42260a44-773b-4350-a743-e0df5e15428a,1920-12-04,oramirez@example.com,2024-02-19 09:16:20.580982,0b44361f-16c7-454a-af82-c4d6438dc8b1,Grains,Oats,1.2,4,4.8
+Leah Mullen,42260a44-773b-4350-a743-e0df5e15428a,1920-12-04,oramirez@example.com,2024-02-04 10:52:36.963833,7c2b940d-9045-4445-958c-d60ea07f7f47,Fruits,Strawberry,1.8,3,5.4
+Leah Mullen,42260a44-773b-4350-a743-e0df5e15428a,1920-12-04,oramirez@example.com,2024-02-02 09:53:30.996922,6f48744f-7abc-4f0b-86fe-0dedfe38784b,Vegetables,Spinach,1.5,6,9.0
+Leah Mullen,42260a44-773b-4350-a743-e0df5e15428a,1920-12-04,oramirez@example.com,2024-02-02 09:53:30.996922,6f48744f-7abc-4f0b-86fe-0dedfe38784b,Meat,Chicken,3.0,2,6.0
+Leah Mullen,42260a44-773b-4350-a743-e0df5e15428a,1920-12-04,oramirez@example.com,2024-02-02 09:53:30.996922,6f48744f-7abc-4f0b-86fe-0dedfe38784b,Fruits,Strawberry,1.8,8,14.4
+Leah Mullen,42260a44-773b-4350-a743-e0df5e15428a,1920-12-04,oramirez@example.com,2024-02-02 09:53:30.996922,6f48744f-7abc-4f0b-86fe-0dedfe38784b,Meat,Lamb,7.0,2,14.0
+Nicholas Johnson,ef89c2e7-aa17-4666-9b6e-83a96f2af3b2,2019-10-02,nicolewilson@example.com,2024-02-06 12:43:22.615101,62614790-43a0-41c4-85a1-6970a11b26b0,Vegetables,Spinach,1.5,8,12.0
+Nicholas Johnson,ef89c2e7-aa17-4666-9b6e-83a96f2af3b2,2019-10-02,nicolewilson@example.com,2024-02-03 13:48:16.768893,cd96a6a1-9dbd-46ff-9fad-7a0d4aa83cd6,Grains,Millet,2.1,7,14.700000000000001
+Nicholas Johnson,ef89c2e7-aa17-4666-9b6e-83a96f2af3b2,2019-10-02,nicolewilson@example.com,2024-02-03 13:48:16.768893,cd96a6a1-9dbd-46ff-9fad-7a0d4aa83cd6,Fruits,Apple,1.5,2,3.0
+Nicholas Johnson,ef89c2e7-aa17-4666-9b6e-83a96f2af3b2,2019-10-02,nicolewilson@example.com,2024-02-03 13:48:16.768893,cd96a6a1-9dbd-46ff-9fad-7a0d4aa83cd6,Meat,Shrimp,10.0,2,20.0
+Nicholas Johnson,ef89c2e7-aa17-4666-9b6e-83a96f2af3b2,2019-10-02,nicolewilson@example.com,2024-02-03 13:48:16.768893,cd96a6a1-9dbd-46ff-9fad-7a0d4aa83cd6,Grains,Farro,2.2,6,13.200000000000001
+Nicholas Johnson,ef89c2e7-aa17-4666-9b6e-83a96f2af3b2,2019-10-02,nicolewilson@example.com,2024-02-03 13:48:16.768893,cd96a6a1-9dbd-46ff-9fad-7a0d4aa83cd6,Dairy,Milk,2.0,5,10.0
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-08 09:32:20.681519,196d362d-fec2-4805-beea-c13d581332c2,Fruits,Kiwi,1.1,4,4.4
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-08 09:32:20.681519,196d362d-fec2-4805-beea-c13d581332c2,Grains,Millet,2.1,3,6.300000000000001
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-08 09:32:20.681519,196d362d-fec2-4805-beea-c13d581332c2,Dairy,Yogurt,1.5,3,4.5
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-08 09:32:20.681519,196d362d-fec2-4805-beea-c13d581332c2,Meat,Lamb,7.0,5,35.0
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-14 16:27:49.663260,c20166e3-ca68-4a98-b48e-f9a86aeb5a32,Vegetables,Broccoli,1.0,3,3.0
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-14 16:27:49.663260,c20166e3-ca68-4a98-b48e-f9a86aeb5a32,Dairy,Eggs,1.8,7,12.6
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-14 16:27:49.663260,c20166e3-ca68-4a98-b48e-f9a86aeb5a32,Meat,Salmon,9.0,2,18.0
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-14 16:27:49.663260,c20166e3-ca68-4a98-b48e-f9a86aeb5a32,Meat,Lamb,7.0,4,28.0
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-02 12:13:47.444477,133894b3-854c-4896-9aac-3ca1920c904e,Grains,Farro,2.2,4,8.8
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-02 12:13:47.444477,133894b3-854c-4896-9aac-3ca1920c904e,Dairy,Cheese,3.0,3,9.0
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-02 12:13:47.444477,133894b3-854c-4896-9aac-3ca1920c904e,Meat,Beef,5.0,7,35.0
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-02 12:13:47.444477,133894b3-854c-4896-9aac-3ca1920c904e,Meat,Crab,12.0,7,84.0
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-20 05:07:44.661376,08df6b19-7c3a-4037-a0d5-c16e961139cf,Dairy,Cream,2.5,7,17.5
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-20 05:07:44.661376,08df6b19-7c3a-4037-a0d5-c16e961139cf,Grains,Pasta,2.0,5,10.0
+Natasha Weaver,8d5f52c0-83f0-4a77-96b8-002a0f424ffa,1909-10-06,oweiss@example.com,2024-02-20 05:07:44.661376,08df6b19-7c3a-4037-a0d5-c16e961139cf,Meat,Crab,12.0,4,48.0
+Rachael Reed,378b094c-b517-4761-961a-43f28ecb4971,2023-08-18,raymondlynch@example.net,2024-02-10 19:02:46.439469,f90b9724-b883-48ea-84e8-a60428702bb1,Vegetables,Spinach,1.5,6,9.0
+Rachael Reed,378b094c-b517-4761-961a-43f28ecb4971,2023-08-18,raymondlynch@example.net,2024-02-10 19:02:46.439469,f90b9724-b883-48ea-84e8-a60428702bb1,Meat,Salmon,9.0,10,90.0
+Rachael Reed,378b094c-b517-4761-961a-43f28ecb4971,2023-08-18,raymondlynch@example.net,2024-02-10 19:02:46.439469,f90b9724-b883-48ea-84e8-a60428702bb1,Vegetables,Cucumber,0.7,7,4.8999999999999995
+Rachael Reed,378b094c-b517-4761-961a-43f28ecb4971,2023-08-18,raymondlynch@example.net,2024-02-20 22:59:22.998125,da2e6e6c-8c1a-412b-bff9-9f34f94d9109,Dairy,Cream,2.5,2,5.0
+Rachael Reed,378b094c-b517-4761-961a-43f28ecb4971,2023-08-18,raymondlynch@example.net,2024-02-20 22:59:22.998125,da2e6e6c-8c1a-412b-bff9-9f34f94d9109,Grains,Quinoa,3.0,10,30.0
+Rachael Reed,378b094c-b517-4761-961a-43f28ecb4971,2023-08-18,raymondlynch@example.net,2024-02-20 22:59:22.998125,da2e6e6c-8c1a-412b-bff9-9f34f94d9109,Grains,Pasta,2.0,9,18.0
+Rachael Reed,378b094c-b517-4761-961a-43f28ecb4971,2023-08-18,raymondlynch@example.net,2024-02-05 11:30:39.062221,fbcefcd0-5050-432c-9406-2cce773a13fb,Dairy,Butter,2.5,8,20.0
+Rachael Reed,378b094c-b517-4761-961a-43f28ecb4971,2023-08-18,raymondlynch@example.net,2024-02-03 20:47:02.115830,c503ccb5-c6b4-495c-aa19-af268fa41d22,Fruits,Pineapple,1.4,8,11.2
+Rachael Reed,378b094c-b517-4761-961a-43f28ecb4971,2023-08-18,raymondlynch@example.net,2024-02-03 20:47:02.115830,c503ccb5-c6b4-495c-aa19-af268fa41d22,Vegetables,Potato,0.6,4,2.4
+Rachael Reed,378b094c-b517-4761-961a-43f28ecb4971,2023-08-18,raymondlynch@example.net,2024-02-03 20:47:02.115830,c503ccb5-c6b4-495c-aa19-af268fa41d22,Meat,Pork,4.0,7,28.0
+Matthew Murphy,f33c4233-c833-407e-b4d5-6ffcdf4a518a,1945-08-23,carrkelly@example.org,2024-02-04 17:08:24.330536,8340fed5-338f-4437-baa2-cbad467a6bdf,Dairy,Ice Cream,4.0,8,32.0
+Matthew Murphy,f33c4233-c833-407e-b4d5-6ffcdf4a518a,1945-08-23,carrkelly@example.org,2024-02-13 08:59:22.032397,6a2465cf-16c2-44aa-b2f7-8920dd7516f5,Dairy,Cream Cheese,3.5,9,31.5
+Matthew Murphy,f33c4233-c833-407e-b4d5-6ffcdf4a518a,1945-08-23,carrkelly@example.org,2024-02-13 08:59:22.032397,6a2465cf-16c2-44aa-b2f7-8920dd7516f5,Dairy,Cream Cheese,3.5,1,3.5
+Matthew Murphy,f33c4233-c833-407e-b4d5-6ffcdf4a518a,1945-08-23,carrkelly@example.org,2024-02-13 08:59:22.032397,6a2465cf-16c2-44aa-b2f7-8920dd7516f5,Meat,Shrimp,10.0,10,100.0
+Matthew Murphy,f33c4233-c833-407e-b4d5-6ffcdf4a518a,1945-08-23,carrkelly@example.org,2024-02-13 08:59:22.032397,6a2465cf-16c2-44aa-b2f7-8920dd7516f5,Fruits,Banana,0.75,4,3.0
+Matthew Murphy,f33c4233-c833-407e-b4d5-6ffcdf4a518a,1945-08-23,carrkelly@example.org,2024-02-13 08:59:22.032397,6a2465cf-16c2-44aa-b2f7-8920dd7516f5,Meat,Pork,4.0,10,40.0
+Matthew Murphy,f33c4233-c833-407e-b4d5-6ffcdf4a518a,1945-08-23,carrkelly@example.org,2024-02-12 05:10:38.032435,14934a25-1f69-4d43-a8bf-bf7ed4dc2301,Grains,Couscous,2.0,6,12.0
+Matthew Murphy,f33c4233-c833-407e-b4d5-6ffcdf4a518a,1945-08-23,carrkelly@example.org,2024-02-14 05:48:59.958349,2c94151d-52fa-4935-bf28-355076847398,Fruits,Apple,1.5,2,3.0
+Matthew Murphy,f33c4233-c833-407e-b4d5-6ffcdf4a518a,1945-08-23,carrkelly@example.org,2024-02-14 05:48:59.958349,2c94151d-52fa-4935-bf28-355076847398,Meat,Fish,6.0,9,54.0
+Matthew Murphy,f33c4233-c833-407e-b4d5-6ffcdf4a518a,1945-08-23,carrkelly@example.org,2024-02-14 05:48:59.958349,2c94151d-52fa-4935-bf28-355076847398,Grains,Millet,2.1,10,21.0
+Matthew Murphy,f33c4233-c833-407e-b4d5-6ffcdf4a518a,1945-08-23,carrkelly@example.org,2024-02-14 05:48:59.958349,2c94151d-52fa-4935-bf28-355076847398,Grains,Quinoa,3.0,8,24.0
+Mark Nunez,d5e32aef-05dd-4ef0-8806-38c9496749fb,1909-02-05,charles55@example.net,2024-02-15 13:54:01.405457,b55dc442-c884-4666-8c66-1a4949954cf1,Dairy,Ice Cream,4.0,9,36.0
+Mark Nunez,d5e32aef-05dd-4ef0-8806-38c9496749fb,1909-02-05,charles55@example.net,2024-02-15 13:54:01.405457,b55dc442-c884-4666-8c66-1a4949954cf1,Vegetables,Cucumber,0.7,1,0.7
+Mark Nunez,d5e32aef-05dd-4ef0-8806-38c9496749fb,1909-02-05,charles55@example.net,2024-02-15 13:54:01.405457,b55dc442-c884-4666-8c66-1a4949954cf1,Dairy,Cheese,3.0,5,15.0
+Mark Nunez,d5e32aef-05dd-4ef0-8806-38c9496749fb,1909-02-05,charles55@example.net,2024-02-15 13:54:01.405457,b55dc442-c884-4666-8c66-1a4949954cf1,Dairy,Cheese,3.0,2,6.0
+Mark Nunez,d5e32aef-05dd-4ef0-8806-38c9496749fb,1909-02-05,charles55@example.net,2024-02-06 13:13:20.200683,23d83f22-8440-4b37-b13b-ad4ee368f7d2,Meat,Lamb,7.0,6,42.0
+Mark Nunez,d5e32aef-05dd-4ef0-8806-38c9496749fb,1909-02-05,charles55@example.net,2024-02-06 13:13:20.200683,23d83f22-8440-4b37-b13b-ad4ee368f7d2,Dairy,Butter,2.5,9,22.5
+Mark Nunez,d5e32aef-05dd-4ef0-8806-38c9496749fb,1909-02-05,charles55@example.net,2024-02-06 18:58:59.026481,6b291a13-637c-4644-8934-5ce70e5bc44c,Meat,Salmon,9.0,2,18.0
+Mark Nunez,d5e32aef-05dd-4ef0-8806-38c9496749fb,1909-02-05,charles55@example.net,2024-02-06 18:58:59.026481,6b291a13-637c-4644-8934-5ce70e5bc44c,Dairy,Cottage Cheese,2.0,6,12.0
+Mark Nunez,d5e32aef-05dd-4ef0-8806-38c9496749fb,1909-02-05,charles55@example.net,2024-02-06 18:58:59.026481,6b291a13-637c-4644-8934-5ce70e5bc44c,Fruits,Strawberry,1.8,1,1.8
+Mark Nunez,d5e32aef-05dd-4ef0-8806-38c9496749fb,1909-02-05,charles55@example.net,2024-02-06 18:58:59.026481,6b291a13-637c-4644-8934-5ce70e5bc44c,Fruits,Apple,1.5,6,9.0
+Darin Tapia,7d4fbfff-8865-4e42-8efe-73ece9184b9f,2011-04-25,hendersongavin@example.org,2024-02-06 03:41:28.980853,07d5e121-623a-45ae-ba31-a27cced4dd7c,Vegetables,Onion,0.9,3,2.7
+Darin Tapia,7d4fbfff-8865-4e42-8efe-73ece9184b9f,2011-04-25,hendersongavin@example.org,2024-02-06 03:41:28.980853,07d5e121-623a-45ae-ba31-a27cced4dd7c,Grains,Pasta,2.0,6,12.0
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-12 03:37:35.808599,7881307d-6e77-4359-a77a-beb744bfc434,Dairy,Butter,2.5,7,17.5
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-12 03:37:35.808599,7881307d-6e77-4359-a77a-beb744bfc434,Vegetables,Lettuce,1.2,7,8.4
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-12 03:37:35.808599,7881307d-6e77-4359-a77a-beb744bfc434,Dairy,Milk,2.0,10,20.0
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-12 03:37:35.808599,7881307d-6e77-4359-a77a-beb744bfc434,Vegetables,Bell Pepper,1.3,10,13.0
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-16 13:24:06.287741,b58c1e9f-2a0b-4040-8ef0-5b6fed4879e7,Dairy,Milk,2.0,4,8.0
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-16 13:24:06.287741,b58c1e9f-2a0b-4040-8ef0-5b6fed4879e7,Vegetables,Potato,0.6,2,1.2
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-16 13:24:06.287741,b58c1e9f-2a0b-4040-8ef0-5b6fed4879e7,Grains,Bread,1.5,9,13.5
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-16 13:24:06.287741,b58c1e9f-2a0b-4040-8ef0-5b6fed4879e7,Vegetables,Cucumber,0.7,6,4.199999999999999
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-20 18:53:02.090534,3fccb2c1-33d4-4096-9b78-01ea86343347,Dairy,Cheese,3.0,5,15.0
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-20 18:53:02.090534,3fccb2c1-33d4-4096-9b78-01ea86343347,Dairy,Cream Cheese,3.5,6,21.0
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-04 08:55:50.679788,25323fd3-c9f3-4bf8-8d03-cbddcc869dea,Dairy,Ice Cream,4.0,7,28.0
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-04 08:55:50.679788,25323fd3-c9f3-4bf8-8d03-cbddcc869dea,Grains,Bread,1.5,6,9.0
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-04 08:55:50.679788,25323fd3-c9f3-4bf8-8d03-cbddcc869dea,Meat,Salmon,9.0,10,90.0
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-04 08:55:50.679788,25323fd3-c9f3-4bf8-8d03-cbddcc869dea,Vegetables,Potato,0.6,10,6.0
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-04 08:55:50.679788,25323fd3-c9f3-4bf8-8d03-cbddcc869dea,Grains,Bread,1.5,3,4.5
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-05 03:44:25.479355,06f9f4e6-8b4e-4003-801a-2e8afba0fd45,Fruits,Grapes,2.0,5,10.0
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-05 03:44:25.479355,06f9f4e6-8b4e-4003-801a-2e8afba0fd45,Fruits,Orange,1.2,6,7.199999999999999
+Eric Summers,700b1433-f5d6-4476-a0f1-2d46e775f27e,1909-11-27,alicia18@example.org,2024-02-05 03:44:25.479355,06f9f4e6-8b4e-4003-801a-2e8afba0fd45,Vegetables,Onion,0.9,7,6.3
