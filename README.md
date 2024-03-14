@@ -1,4 +1,4 @@
-# Customer Lifetime Value Analysis README
+# Customer Lifetime Value Analysis 
 
 ## Overview
 This Python script utilizes the Customer Lifetime Value (CLV) model to analyze customer purchase behavior and predict future spending. It segments customers into categories based on their transaction history to help businesses tailor their marketing strategies.
